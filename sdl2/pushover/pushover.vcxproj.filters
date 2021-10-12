@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ant.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsn.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="leveldata.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="leveldisplay.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="levelplayer.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="levelset.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="luaclass.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pngloader.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="recorder.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sha1.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="solvedmap.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="soundsys.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="textsections.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ant.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsn.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="leveldata.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="leveldisplay.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="levelplayer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="levelset.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="luaclass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pngloader.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="recorder.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sha1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="solvedmap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="soundsys.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="textsections.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
