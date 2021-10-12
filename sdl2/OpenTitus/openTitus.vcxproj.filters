@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{a1a8af88-a2d8-45e4-b989-b2bd1b362a3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{d1bd172e-dc26-4b1d-a432-6d59f4056144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opl">
+      <UniqueIdentifier>{6b072c41-746c-4c84-9c07-7a04ba001efa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\audio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elevators.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemies.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fonts.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gates.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\keyboard.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objects.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\original.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reset.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scroll.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settings.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprites.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqz.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tile_animation.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewimage.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="opl\dbopl.c">
+      <Filter>opl</Filter>
+    </ClCompile>
+    <ClCompile Include="opl.c">
+      <Filter>opl</Filter>
+    </ClCompile>
+    <ClCompile Include="opl_win32.c">
+      <Filter>opl</Filter>
+    </ClCompile>
+    <ClCompile Include="opl\ioperm_sys.c">
+      <Filter>opl</Filter>
+    </ClCompile>
+    <ClCompile Include="opl\opl_queue.c">
+      <Filter>opl</Filter>
+    </ClCompile>
+    <ClCompile Include="opl\opl_sdl.c">
+      <Filter>opl</Filter>
+    </ClCompile>
+    <ClCompile Include="opl\opl_timer.c">
+      <Filter>opl</Filter>
+    </ClCompile>
+    <ClCompile Include="opentitus.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\audio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\backbuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dbopl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\definitions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dingoo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\draw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\elevators.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enemies.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fonts.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gates.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\globals.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\keyboard.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\level.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\malloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\objects.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\original.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\reset.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scroll.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\settings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sprites.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqz.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tituserror.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\viewimage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="opl\opl.h">
+      <Filter>opl</Filter>
+    </ClInclude>
+    <ClInclude Include="opl\ioperm_sys.h">
+      <Filter>opl</Filter>
+    </ClInclude>
+    <ClInclude Include="opl\opl_queue.h">
+      <Filter>opl</Filter>
+    </ClInclude>
+    <ClInclude Include="opl\opl_timer.h">
+      <Filter>opl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

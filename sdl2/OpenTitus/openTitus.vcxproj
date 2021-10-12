@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="opentitus.c" />
+    <ClCompile Include="opl.c" />
+    <ClCompile Include="opl\dbopl.c" />
+    <ClCompile Include="opl\ioperm_sys.c" />
+    <ClCompile Include="opl\opl_queue.c" />
+    <ClCompile Include="opl\opl_sdl.c" />
+    <ClCompile Include="opl\opl_timer.c" />
+    <ClCompile Include="opl_win32.c" />
+    <ClCompile Include="src\audio.c" />
+    <ClCompile Include="src\common.c" />
+    <ClCompile Include="src\draw.c" />
+    <ClCompile Include="src\elevators.c" />
+    <ClCompile Include="src\enemies.c" />
+    <ClCompile Include="src\engine.c" />
+    <ClCompile Include="src\fonts.c" />
+    <ClCompile Include="src\gates.c" />
+    <ClCompile Include="src\keyboard.c" />
+    <ClCompile Include="src\level.c" />
+    <ClCompile Include="src\menu.c" />
+    <ClCompile Include="src\objects.c" />
+    <ClCompile Include="src\original.c" />
+    <ClCompile Include="src\player.c" />
+    <ClCompile Include="src\reset.c" />
+    <ClCompile Include="src\scroll.c" />
+    <ClCompile Include="src\settings.c" />
+    <ClCompile Include="src\sprites.c" />
+    <ClCompile Include="src\sqz.c" />
+    <ClCompile Include="src\tile_animation.c" />
+    <ClCompile Include="src\viewimage.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\audio.h" />
+    <ClInclude Include="include\backbuffer.h" />
+    <ClInclude Include="include\common.h" />
+    <ClInclude Include="include\config.h" />
+    <ClInclude Include="include\dbopl.h" />
+    <ClInclude Include="include\definitions.h" />
+    <ClInclude Include="include\dingoo.h" />
+    <ClInclude Include="include\draw.h" />
+    <ClInclude Include="include\elevators.h" />
+    <ClInclude Include="include\enemies.h" />
+    <ClInclude Include="include\engine.h" />
+    <ClInclude Include="include\fonts.h" />
+    <ClInclude Include="include\gates.h" />
+    <ClInclude Include="include\globals.h" />
+    <ClInclude Include="include\keyboard.h" />
+    <ClInclude Include="include\level.h" />
+    <ClInclude Include="include\malloc.h" />
+    <ClInclude Include="include\menu.h" />
+    <ClInclude Include="include\objects.h" />
+    <ClInclude Include="include\original.h" />
+    <ClInclude Include="include\player.h" />
+    <ClInclude Include="include\reset.h" />
+    <ClInclude Include="include\scroll.h" />
+    <ClInclude Include="include\settings.h" />
+    <ClInclude Include="include\sprites.h" />
+    <ClInclude Include="include\sqz.h" />
+    <ClInclude Include="include\tituserror.h" />
+    <ClInclude Include="include\viewimage.h" />
+    <ClInclude Include="opl\ioperm_sys.h" />
+    <ClInclude Include="opl\opl.h" />
+    <ClInclude Include="opl\opl_queue.h" />
+    <ClInclude Include="opl\opl_timer.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3FE25C30-0A74-4B0B-B35E-E7A9CF5DC77F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SDL2Framework</RootNamespace>
+    <ProjectName>openTitus</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)/Intermediate/$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\Bin32\</OutDir>
+    <IntDir>$(SolutionDir)/Intermediate/$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>MALLOC_H;SDL_MAIN_HANDLED;WINDOWS;WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./;./include;./opl</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819;4305;4244;4033;4018;4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../../../SDL2_Module/SDL2/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../../../../SDL2_Module/prebuilt/win32/lib/x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2main.lib;sdl2.lib;sdl2_mixer.lib;sdl2_image.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
