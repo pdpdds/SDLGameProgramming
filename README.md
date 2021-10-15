@@ -8,9 +8,3 @@ SDL Game Programming Using Dual System.
 | -------- | -------- | -------- |
 |tbfss |The Battle for the Solar System     |  https://github.com/stephenjsweeney/tbftss    |
 
-
-
-## SDL1 Game & Application
-
-| Project | Game Name| Link |
-| -------- | -------- | -------- |
