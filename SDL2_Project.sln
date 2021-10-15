@@ -19,6 +19,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uMario", "sdl2\uMario\uNext
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdventureInSDL2", "sdl2\AdventureInSDL2\AdventureInSDL2.vcxproj", "{897EB14A-7906-47B1-9A00-112E3C274426}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "catquest", "sdl2\catquest\catquest.vcxproj", "{628DA794-E728-4EAE-9DE5-D655856432FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CaveStory", "sdl2\CaveStory\msvc2003\CSE2.vcxproj", "{6B8CC57F-5656-4C4B-8FCB-B0C326FCB4D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -83,6 +87,20 @@ Global
 		{897EB14A-7906-47B1-9A00-112E3C274426}.Release|x64.Build.0 = Release|x64
 		{897EB14A-7906-47B1-9A00-112E3C274426}.Release|x86.ActiveCfg = Release|Win32
 		{897EB14A-7906-47B1-9A00-112E3C274426}.Release|x86.Build.0 = Release|Win32
+		{628DA794-E728-4EAE-9DE5-D655856432FE}.Debug|x64.ActiveCfg = Debug|x64
+		{628DA794-E728-4EAE-9DE5-D655856432FE}.Debug|x64.Build.0 = Debug|x64
+		{628DA794-E728-4EAE-9DE5-D655856432FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{628DA794-E728-4EAE-9DE5-D655856432FE}.Debug|x86.Build.0 = Debug|Win32
+		{628DA794-E728-4EAE-9DE5-D655856432FE}.Release|x64.ActiveCfg = Release|x64
+		{628DA794-E728-4EAE-9DE5-D655856432FE}.Release|x64.Build.0 = Release|x64
+		{628DA794-E728-4EAE-9DE5-D655856432FE}.Release|x86.ActiveCfg = Release|Win32
+		{628DA794-E728-4EAE-9DE5-D655856432FE}.Release|x86.Build.0 = Release|Win32
+		{6B8CC57F-5656-4C4B-8FCB-B0C326FCB4D4}.Debug|x64.ActiveCfg = Debug|Win32
+		{6B8CC57F-5656-4C4B-8FCB-B0C326FCB4D4}.Debug|x86.ActiveCfg = Debug|Win32
+		{6B8CC57F-5656-4C4B-8FCB-B0C326FCB4D4}.Debug|x86.Build.0 = Debug|Win32
+		{6B8CC57F-5656-4C4B-8FCB-B0C326FCB4D4}.Release|x64.ActiveCfg = Release|Win32
+		{6B8CC57F-5656-4C4B-8FCB-B0C326FCB4D4}.Release|x86.ActiveCfg = Release|Win32
+		{6B8CC57F-5656-4C4B-8FCB-B0C326FCB4D4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
