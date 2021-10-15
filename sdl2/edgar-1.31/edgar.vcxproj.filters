@@ -1,0 +1,1926 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f1edb2d3-a71c-4487-a51d-df2a7d15d462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio">
+      <UniqueIdentifier>{482eb428-9757-4588-987c-e5d10128a581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\boss">
+      <UniqueIdentifier>{85975658-6ef1-464b-b48a-6d4e3187a14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\enemy">
+      <UniqueIdentifier>{1c1cf493-b152-4813-8ddc-3baa23cf565d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\event">
+      <UniqueIdentifier>{39136a88-69a3-4298-a2ae-75a247430607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{0c94260a-0c87-4d7c-b28c-9533152abb67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\item">
+      <UniqueIdentifier>{f541de60-e707-491d-8302-7187da064503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu">
+      <UniqueIdentifier>{66407472-d835-4e2b-b3b6-2cb5031b6829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system">
+      <UniqueIdentifier>{413cb839-dadd-413e-add7-959d2c0b0d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\world">
+      <UniqueIdentifier>{8002c05e-04b8-4397-bd23-fb2faf753ce0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\collisions.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\credits.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cursor.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\custom_actions.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dialog.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entity.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hud.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\i18n.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inventory.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\medal.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\projectile.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\status_panel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\strtok_r.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\title.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\weather.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\action_point.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\anti_gravity_field.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\conveyor_belt.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\door.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\explosion.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\falling_platform.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\level_exit.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\lift.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\line_def.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\npc.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\pressure_plate.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\save_point.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\spawner.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\switch.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\target.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\teleporter.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\trap_door.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\vanishing_platform.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world\weak_wall.c">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\compress.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\error.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\load_save.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\pak.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\properties.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\random.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\record.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\resources.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\about_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\cheat_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\control_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\inventory_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\io_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\label.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\main_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\medals_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\ok_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\options_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\script_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\sound_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\stats_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\widget.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\yes_no_menu.c">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\apple.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\apple_tree.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\arrow_target.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\attractor.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\balloon.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\bell_rope.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\blending_machine.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\bomb.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\bomb_pile.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\bubble.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\bubble_machine.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\catapult.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\cauldron.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\cell_bars.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\chaos_chain_base.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\chicken_feed.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\chicken_trap.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\cloud_geyzer.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\coal_pile.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\code_display.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\code_door.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\colour_display.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\colour_pot.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\containment_unit.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\containment_unit_controls.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\crossbow.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\crossbow_bolt.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\crusher.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\drawbridge_anchor.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\drawbridge_pulley.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\exploding_gazer_eye.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\exploding_gazer_eye_dud.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\extend_o_grab.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\extend_o_grab_button.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\final_power_generator.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\flame_pillar.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\force_field.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\gazer_eye_slot.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\glass_cage.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\glass_wall.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\grabber.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\grappling_hook.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\grimlore_artifact.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\heart_container.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\hidden_passage_wall.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\high_striker.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\ice_cube.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\ice_spray.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\instruction_machine.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\item.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\item_remover.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\jigsaw_puzzle.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\jigsaw_puzzle_display.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\key_items.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\lab_crusher.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\lava_door.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\lava_geyzer.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\light_beam.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\light_pillar.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\light_source.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\light_target.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\magnet.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\mastermind.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\mastermind_display.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\memory_match.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\memory_match_display.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\mine_cart.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\mirror.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\monster_skull.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\moveable_lift.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\music_sheet_display.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\number_block.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\one_way_door.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\pedestal.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\phase_door.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\poison_meat.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\portable_save.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\potion_dispenser.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\potions.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\power_generator.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\power_meter.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\puzzle_piece.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\repellent.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\robot.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\rock_container.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\safe.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\safe_combination.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\scale.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\shield_pillar.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\shrub.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\skull.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\sliding_puzzle.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\sliding_puzzle_display.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\slime_container.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\slime_potion_pool.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\snow_pile.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\soul_bottle.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\soul_merger.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\soul_merger_control_panel.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\spike_ball.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\spore.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\spore_crop.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\spring.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\stalactite.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\symbol_block.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\tesla_charger.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\tesla_pack.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\train.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\train_track.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\tread_mill.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\tuning_fork.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\vines.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item\water_purifier.c">
+      <Filter>src\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\animation.c">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\decoration.c">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\font.c">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\gib.c">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\graphics.c">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\save_png.c">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\sprites.c">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\texture_cache.c">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\global_trigger.c">
+      <Filter>src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\map_trigger.c">
+      <Filter>src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\objective.c">
+      <Filter>src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\script.c">
+      <Filter>src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\trigger.c">
+      <Filter>src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\armadillo.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\armour_changer.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\auto_spike_ball.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\baby_salamander.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\baby_slime.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\bat.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\book.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\buzz_saw.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\ceiling_crawler.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\ceiling_creeper.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\ceiling_snapper.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\centipede.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\centurion.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\chicken.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\crypt_skull.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\dark_summoner.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\dragon_fly.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\egg.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\enemies.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\enemy_generator.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\energy_drainer.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\exploding_spike_sphere.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\eye_stalk.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\fire_burner.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\fire_tortoise.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\fireball.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\fish.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\flame_statue.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\floating_snapper.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\fly_trap.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\flying_bug.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\frog.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\gas_plant.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\gazer.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\ghost.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\giant_ceiling_creeper.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\giant_snowball.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\gold_centurion.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\ground_snapper.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\ground_spear.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\grub.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\hoover.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\huge_spider.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\ice_tortoise.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\icicle.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\iron_ball.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\jumping_slime.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\large_book.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\large_spider.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\laser_grid.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\lightning_tortoise.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\magic_missile.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\master_tortoise.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\mouth_stalk.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\pendulum.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\poltergiest.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\rampaging_master_tortoise.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\red_ceiling_creeper.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\red_grub.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\rock.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\sasquatch.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\scanner.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\scorpion.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\skeleton.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\skull_door.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\sludge.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\sludge_pool.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\slug.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\small_boulder.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\snail.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\snail_shell.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\sorceror_dark_summoner.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\spider.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\spike_sphere.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\spike_wall.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\spirit.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\spitting_plant.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\splitter.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\summoner.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\thunder_cloud.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\undead_gazer.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\wasp.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\whirlwind.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy\zombie.c">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\ant_lion.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\armour_boss.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\awesome_boss.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\awesome_boss_meter.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\azriel.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\azriel_grave.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\black_book.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\black_book_2.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\black_book_3.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\blob_boss.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\borer_boss.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\boulder_boss.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\boulder_boss_2.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\cave_boss.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\centurion_boss.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\chaos.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\chaos_vine.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\evil_edgar.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\fly_boss.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\flying_maggot.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\gargoyle.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\golem_boss.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\golem_rock_dropper.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\grimlore.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\grimlore_summon_spell.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\grub_boss.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\mataeus.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\mataeus_wall.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\mini_gargoyle.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\phoenix.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\sewer_boss.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\snake_boss.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\sorceror.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\sorceror_2.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boss\sorceror_floor.c">
+      <Filter>src\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\audio.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\music.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\collisions.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\credits.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cursor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\custom_actions.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entity.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geometry.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hud.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\i18n.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\init.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inventory.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\medal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\projectile.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\status_panel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\strtok_r.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\structs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\title.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\weather.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\action_point.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\anti_gravity_field.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\conveyor_belt.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\door.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\explosion.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\falling_platform.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\level_exit.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\lift.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\line_def.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\npc.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\pressure_plate.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\save_point.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\spawner.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\switch.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\target.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\teleporter.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\trap_door.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\vanishing_platform.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\weak_wall.h">
+      <Filter>src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\compress.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\error.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\load_save.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\pak.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\properties.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\random.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\record.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\resources.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\about_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\cheat_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\control_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\inventory_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\io_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\label.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\main_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\medals_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\ok_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\options_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\script_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\sound_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\stats_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\widget.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\yes_no_menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\apple.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\apple_tree.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\arrow_target.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\attractor.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\balloon.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\bell_rope.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\blending_machine.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\bomb.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\bomb_pile.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\bubble.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\bubble_machine.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\catapult.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\cauldron.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\cell_bars.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\chaos_chain_base.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\chicken_feed.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\chicken_trap.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\cloud_geyzer.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\coal_pile.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\code_display.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\code_door.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\colour_display.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\colour_pot.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\containment_unit.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\containment_unit_controls.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\crossbow.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\crossbow_bolt.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\crusher.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\drawbridge_anchor.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\drawbridge_pulley.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\exploding_gazer_eye.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\exploding_gazer_eye_dud.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\extend_o_grab.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\extend_o_grab_button.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\final_power_generator.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\flame_pillar.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\force_field.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\gazer_eye_slot.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\glass_cage.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\glass_wall.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\grabber.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\grappling_hook.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\grimlore_artifact.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\heart_container.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\hidden_passage_wall.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\high_striker.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\ice_cube.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\ice_spray.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\instruction_machine.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\item.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\item_remover.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\jigsaw_puzzle.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\jigsaw_puzzle_display.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\key_items.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\lab_crusher.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\lava_door.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\lava_geyzer.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\light_beam.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\light_pillar.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\light_source.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\light_target.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\magnet.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\mastermind.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\mastermind_display.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\memory_match.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\memory_match_display.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\mine_cart.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\mirror.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\monster_skull.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\moveable_lift.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\music_sheet_display.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\number_block.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\one_way_door.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\pedestal.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\phase_door.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\poison_meat.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\portable_save.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\potion_dispenser.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\potions.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\power_generator.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\power_meter.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\puzzle_piece.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\repellent.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\robot.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\rock_container.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\safe.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\safe_combination.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\scale.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\shield_pillar.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\shrub.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\skull.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\sliding_puzzle.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\sliding_puzzle_display.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\slime_container.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\slime_potion_pool.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\snow_pile.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\soul_bottle.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\soul_merger.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\soul_merger_control_panel.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\spike_ball.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\spore.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\spore_crop.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\spring.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\stalactite.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\symbol_block.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\tesla_charger.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\tesla_pack.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\train.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\train_track.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\tread_mill.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\tuning_fork.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\vines.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item\water_purifier.h">
+      <Filter>src\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\animation.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\decoration.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\font.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gib.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\graphics.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\save_png.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\sprites.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\texture_cache.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\global_trigger.h">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\map_trigger.h">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\objective.h">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\script.h">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event\trigger.h">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\armadillo.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\armour_changer.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\auto_spike_ball.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\baby_salamander.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\baby_slime.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\bat.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\book.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\buzz_saw.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\ceiling_crawler.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\ceiling_creeper.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\ceiling_snapper.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\centipede.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\centurion.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\chicken.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\crypt_skull.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\dark_summoner.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\dragon_fly.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\egg.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\enemies.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\enemy_generator.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\energy_drainer.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\exploding_spike_sphere.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\eye_stalk.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\fire_burner.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\fire_tortoise.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\fireball.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\fish.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\flame_statue.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\floating_snapper.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\fly_trap.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\flying_bug.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\frog.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\gas_plant.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\gazer.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\ghost.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\giant_ceiling_creeper.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\giant_snowball.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\gold_centurion.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\ground_snapper.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\ground_spear.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\grub.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\hoover.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\huge_spider.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\ice_tortoise.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\icicle.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\iron_ball.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\jumping_slime.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\large_book.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\large_spider.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\laser_grid.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\lightning_tortoise.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\magic_missile.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\master_tortoise.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\mouth_stalk.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\pendulum.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\poltergiest.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\rampaging_master_tortoise.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\red_ceiling_creeper.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\red_grub.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\rock.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\sasquatch.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\scanner.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\scorpion.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\skeleton.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\skull_door.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\sludge.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\sludge_pool.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\slug.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\small_boulder.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\snail.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\snail_shell.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\sorceror_dark_summoner.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\spider.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\spike_sphere.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\spike_wall.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\spirit.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\spitting_plant.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\splitter.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\summoner.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\thunder_cloud.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\undead_gazer.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\wasp.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\whirlwind.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy\zombie.h">
+      <Filter>src\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\ant_lion.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\armour_boss.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\awesome_boss.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\awesome_boss_meter.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\azriel.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\azriel_grave.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\black_book.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\black_book_2.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\black_book_3.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\blob_boss.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\borer_boss.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\boulder_boss.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\boulder_boss_2.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\cave_boss.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\centurion_boss.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\chaos.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\chaos_vine.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\evil_edgar.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\fly_boss.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\flying_maggot.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\gargoyle.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\golem_boss.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\golem_rock_dropper.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\grimlore.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\grimlore_summon_spell.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\grub_boss.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\mataeus.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\mataeus_wall.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\mini_gargoyle.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\phoenix.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\sewer_boss.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\snake_boss.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\sorceror.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\sorceror_2.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boss\sorceror_floor.h">
+      <Filter>src\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\audio.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio\music.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
