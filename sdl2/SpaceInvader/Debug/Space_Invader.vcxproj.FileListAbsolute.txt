@@ -1,1 +1,0 @@
-C:\GitHub\SDLGameProgramming\sdl2\SpaceInvader\Debug\Space_Invader.vcxproj.CopyComplete
