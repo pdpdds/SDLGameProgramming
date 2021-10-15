@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f1edb2d3-a71c-4487-a51d-df2a7d15d462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entities">
+      <UniqueIdentifier>{c7b93a25-c580-4be4-a65b-6847ceafe7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{1ea29ce7-7203-4065-87f1-23bd33802fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\json">
+      <UniqueIdentifier>{8073cc1b-0d67-437c-a198-bc39a8615ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\level">
+      <UniqueIdentifier>{7bdfaebe-0516-4c82-b8c1-ae023c9ddb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\plat">
+      <UniqueIdentifier>{867585ce-5fcc-490f-b0a9-0873dd94a3e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system">
+      <UniqueIdentifier>{8e25f728-cbed-45f4-970d-204f7010da0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{d309a520-78eb-47b0-956a-8df10026b26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test">
+      <UniqueIdentifier>{e7482ed1-2d85-40b2-a73c-931eaf8e77d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\crumblingFloor.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\diamond.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\door.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\firePitTrap.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\guy.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\item.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\key.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\laserTrap.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\movingPlatform.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\pressurePlate.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\pushBlock.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\spikeTrap.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\star.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\teleporter.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\tnt.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\tools.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\wall.c">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\json\cJSON.c">
+      <Filter>src\json</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\credits.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\ending.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\game.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\levelSelect.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\options.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\stats.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\title.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level\effects.c">
+      <Filter>src\level</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level\entities.c">
+      <Filter>src\level</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level\level.c">
+      <Filter>src\level</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level\levelLoader.c">
+      <Filter>src\level</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level\player.c">
+      <Filter>src\level</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plat\win32\win32Init.c">
+      <Filter>src\plat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\atlas.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\controls.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\draw.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\i18n.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\init.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\input.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\io.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\lookup.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\sound.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\sprites.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\strings.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\text.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\textures.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\transition.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\widgets.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\wipe.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\maths.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\util.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\test.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\structs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\crumblingFloor.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\diamond.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\door.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\firePitTrap.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\guy.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\item.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\key.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\laserTrap.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\movingPlatform.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\pressurePlate.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\pushBlock.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\spikeTrap.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\star.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\teleporter.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\tnt.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\tools.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\wall.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\cJSON.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\credits.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\ending.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\game.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\levelSelect.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\options.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\stats.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\title.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\level\effects.h">
+      <Filter>src\level</Filter>
+    </ClInclude>
+    <ClInclude Include="src\level\entities.h">
+      <Filter>src\level</Filter>
+    </ClInclude>
+    <ClInclude Include="src\level\level.h">
+      <Filter>src\level</Filter>
+    </ClInclude>
+    <ClInclude Include="src\level\levelLoader.h">
+      <Filter>src\level</Filter>
+    </ClInclude>
+    <ClInclude Include="src\level\player.h">
+      <Filter>src\level</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plat\win32\win32Init.h">
+      <Filter>src\plat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\atlas.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\controls.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\draw.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\i18n.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\init.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\input.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\io.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\lookup.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\sound.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\sprites.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\strings.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\text.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\textures.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\transition.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\widgets.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\wipe.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\maths.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\util.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\test.h">
+      <Filter>src\test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

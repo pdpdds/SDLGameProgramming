@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\entities\crumblingFloor.c" />
+    <ClCompile Include="src\entities\diamond.c" />
+    <ClCompile Include="src\entities\door.c" />
+    <ClCompile Include="src\entities\firePitTrap.c" />
+    <ClCompile Include="src\entities\guy.c" />
+    <ClCompile Include="src\entities\item.c" />
+    <ClCompile Include="src\entities\key.c" />
+    <ClCompile Include="src\entities\laserTrap.c" />
+    <ClCompile Include="src\entities\movingPlatform.c" />
+    <ClCompile Include="src\entities\pressurePlate.c" />
+    <ClCompile Include="src\entities\pushBlock.c" />
+    <ClCompile Include="src\entities\spikeTrap.c" />
+    <ClCompile Include="src\entities\star.c" />
+    <ClCompile Include="src\entities\teleporter.c" />
+    <ClCompile Include="src\entities\tnt.c" />
+    <ClCompile Include="src\entities\tools.c" />
+    <ClCompile Include="src\entities\wall.c" />
+    <ClCompile Include="src\game\credits.c" />
+    <ClCompile Include="src\game\ending.c" />
+    <ClCompile Include="src\game\game.c" />
+    <ClCompile Include="src\game\levelSelect.c" />
+    <ClCompile Include="src\game\options.c" />
+    <ClCompile Include="src\game\stats.c" />
+    <ClCompile Include="src\game\title.c" />
+    <ClCompile Include="src\json\cJSON.c" />
+    <ClCompile Include="src\level\effects.c" />
+    <ClCompile Include="src\level\entities.c" />
+    <ClCompile Include="src\level\level.c" />
+    <ClCompile Include="src\level\levelLoader.c" />
+    <ClCompile Include="src\level\player.c" />
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\plat\win32\win32Init.c" />
+    <ClCompile Include="src\system\atlas.c" />
+    <ClCompile Include="src\system\controls.c" />
+    <ClCompile Include="src\system\draw.c" />
+    <ClCompile Include="src\system\i18n.c" />
+    <ClCompile Include="src\system\init.c" />
+    <ClCompile Include="src\system\input.c" />
+    <ClCompile Include="src\system\io.c" />
+    <ClCompile Include="src\system\lookup.c" />
+    <ClCompile Include="src\system\sound.c" />
+    <ClCompile Include="src\system\sprites.c" />
+    <ClCompile Include="src\system\strings.c" />
+    <ClCompile Include="src\system\text.c" />
+    <ClCompile Include="src\system\textures.c" />
+    <ClCompile Include="src\system\transition.c" />
+    <ClCompile Include="src\system\widgets.c" />
+    <ClCompile Include="src\system\wipe.c" />
+    <ClCompile Include="src\test\test.c" />
+    <ClCompile Include="src\util\maths.c" />
+    <ClCompile Include="src\util\util.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common.h" />
+    <ClInclude Include="src\defs.h" />
+    <ClInclude Include="src\entities\crumblingFloor.h" />
+    <ClInclude Include="src\entities\diamond.h" />
+    <ClInclude Include="src\entities\door.h" />
+    <ClInclude Include="src\entities\firePitTrap.h" />
+    <ClInclude Include="src\entities\guy.h" />
+    <ClInclude Include="src\entities\item.h" />
+    <ClInclude Include="src\entities\key.h" />
+    <ClInclude Include="src\entities\laserTrap.h" />
+    <ClInclude Include="src\entities\movingPlatform.h" />
+    <ClInclude Include="src\entities\pressurePlate.h" />
+    <ClInclude Include="src\entities\pushBlock.h" />
+    <ClInclude Include="src\entities\spikeTrap.h" />
+    <ClInclude Include="src\entities\star.h" />
+    <ClInclude Include="src\entities\teleporter.h" />
+    <ClInclude Include="src\entities\tnt.h" />
+    <ClInclude Include="src\entities\tools.h" />
+    <ClInclude Include="src\entities\wall.h" />
+    <ClInclude Include="src\game\credits.h" />
+    <ClInclude Include="src\game\ending.h" />
+    <ClInclude Include="src\game\game.h" />
+    <ClInclude Include="src\game\levelSelect.h" />
+    <ClInclude Include="src\game\options.h" />
+    <ClInclude Include="src\game\stats.h" />
+    <ClInclude Include="src\game\title.h" />
+    <ClInclude Include="src\json\cJSON.h" />
+    <ClInclude Include="src\level\effects.h" />
+    <ClInclude Include="src\level\entities.h" />
+    <ClInclude Include="src\level\level.h" />
+    <ClInclude Include="src\level\levelLoader.h" />
+    <ClInclude Include="src\level\player.h" />
+    <ClInclude Include="src\main.h" />
+    <ClInclude Include="src\plat\win32\win32Init.h" />
+    <ClInclude Include="src\structs.h" />
+    <ClInclude Include="src\system\atlas.h" />
+    <ClInclude Include="src\system\controls.h" />
+    <ClInclude Include="src\system\draw.h" />
+    <ClInclude Include="src\system\i18n.h" />
+    <ClInclude Include="src\system\init.h" />
+    <ClInclude Include="src\system\input.h" />
+    <ClInclude Include="src\system\io.h" />
+    <ClInclude Include="src\system\lookup.h" />
+    <ClInclude Include="src\system\sound.h" />
+    <ClInclude Include="src\system\sprites.h" />
+    <ClInclude Include="src\system\strings.h" />
+    <ClInclude Include="src\system\text.h" />
+    <ClInclude Include="src\system\textures.h" />
+    <ClInclude Include="src\system\transition.h" />
+    <ClInclude Include="src\system\widgets.h" />
+    <ClInclude Include="src\system\wipe.h" />
+    <ClInclude Include="src\test\test.h" />
+    <ClInclude Include="src\util\maths.h" />
+    <ClInclude Include="src\util\util.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5B94D67-7189-4DE3-A48A-24D8BBAB885A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SDL2Framework</RootNamespace>
+    <ProjectName>3guys</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)/Intermediate/$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\Bin32\</OutDir>
+    <IntDir>$(SolutionDir)/Intermediate/$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>DEV;SDL_MAIN_HANDLED;WINDOWS;WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./src;./;./include;./opl</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819;4305;4244;4033;4018;4996;4113</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../../../SDL2_Module/SDL2/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../../../../SDL2_Module/prebuilt/win32/lib/x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2main.lib;sdl2.lib;sdl2_mixer.lib;sdl2_image.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

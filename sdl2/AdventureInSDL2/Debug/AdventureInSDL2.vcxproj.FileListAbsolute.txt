@@ -1,0 +1,1 @@
+C:\GitHub\SDLGameProgramming\sdl2\AdventureInSDL2\Debug\AdventureInSDL2.vcxproj.CopyComplete

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F115AAE7-4657-410E-9212-83AB19280E83}</ProjectGuid>
+    <RootNamespace>Space_Invader</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SpaceInvader</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Space_Invader\Header_Files;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL2_ttf-2.0.13\include;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL2_mixer-2.0.1\include;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL_Image\include;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL_Image\lib\x86;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL\lib\win32;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL2_ttf-2.0.13\lib\x86;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL2_mixer-2.0.1\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Space_Invader\Header_Files;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL2_ttf-2.0.13\include;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL2_mixer-2.0.1\include;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL_Image\include;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL_Image\lib\x86;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL\lib\win32;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL2_ttf-2.0.13\lib\x86;C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Libraries\SDL2_mixer-2.0.1\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\Header_Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DisableSpecificWarnings>4244</DisableSpecificWarnings>
+      <PreprocessorDefinitions>SDL_MAIN_HANDLED;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\ANAND\Documents\Visual Studio 2015\Projects\Space_Invader\Space_Invader\Header_Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Source_Files\AnimatedGraphics.cpp" />
+    <ClCompile Include="Source_Files\Bullet.cpp" />
+    <ClCompile Include="Source_Files\BulletHandler.cpp" />
+    <ClCompile Include="Source_Files\Bunker.cpp" />
+    <ClCompile Include="Source_Files\CollisionManager.cpp" />
+    <ClCompile Include="Source_Files\Enemy.cpp" />
+    <ClCompile Include="Source_Files\EnemyGroupController.cpp" />
+    <ClCompile Include="Source_Files\GameObjectFactory.cpp" />
+    <ClCompile Include="Source_Files\GameOverState.cpp" />
+    <ClCompile Include="Source_Files\GameStateMachine.cpp" />
+    <ClCompile Include="Source_Files\InputController.cpp" />
+    <ClCompile Include="Source_Files\MainMenuState.cpp" />
+    <ClCompile Include="Source_Files\MenuButton.cpp" />
+    <ClCompile Include="Source_Files\MenuState.cpp" />
+    <ClCompile Include="Source_Files\PauseState.cpp" />
+    <ClCompile Include="Source_Files\Player.cpp" />
+    <ClCompile Include="Source_Files\Game.cpp" />
+    <ClCompile Include="Source_Files\GameObject.cpp" />
+    <ClCompile Include="Source_Files\PlayState.cpp" />
+    <ClCompile Include="Source_Files\SDLGameObject.cpp" />
+    <ClCompile Include="Source_Files\SoundManager.cpp" />
+    <ClCompile Include="Source_Files\SpriteManager.cpp" />
+    <ClCompile Include="Source_Files\StateParser.cpp" />
+    <ClCompile Include="Source_Files\TextDisplay.cpp" />
+    <ClCompile Include="Source_Files\tinystr.cpp" />
+    <ClCompile Include="Source_Files\tinyxml.cpp" />
+    <ClCompile Include="Source_Files\tinyxmlerror.cpp" />
+    <ClCompile Include="Source_Files\tinyxmlparser.cpp" />
+    <ClCompile Include="Source_Files\Vector2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header_Files\AnimatedGraphics.h" />
+    <ClInclude Include="Header_Files\BaseCreator.h" />
+    <ClInclude Include="Header_Files\Bullet.h" />
+    <ClInclude Include="Header_Files\BulletHandler.h" />
+    <ClInclude Include="Header_Files\Collision.h" />
+    <ClInclude Include="Header_Files\CollisionManager.h" />
+    <ClInclude Include="Header_Files\Enemy.h" />
+    <ClInclude Include="Header_Files\EnemyGroupController.h" />
+    <ClInclude Include="Header_Files\Game.h" />
+    <ClInclude Include="Header_Files\GameObject.h" />
+    <ClInclude Include="Header_Files\GameObjectFactory.h" />
+    <ClInclude Include="Header_Files\GameOverState.h" />
+    <ClInclude Include="Header_Files\GameState.h" />
+    <ClInclude Include="Header_Files\GameStateMachine.h" />
+    <ClInclude Include="Header_Files\InputController.h" />
+    <ClInclude Include="Header_Files\LoaderParams.h" />
+    <ClInclude Include="Header_Files\MainMenuState.h" />
+    <ClInclude Include="Header_Files\MenuButton.h" />
+    <ClInclude Include="Header_Files\MenuState.h" />
+    <ClInclude Include="Header_Files\PauseState.h" />
+    <ClInclude Include="Header_Files\PlayerscoreHandler.h" />
+    <ClInclude Include="Header_Files\PlayState.h" />
+    <ClInclude Include="Header_Files\SDLGameObject.h" />
+    <ClInclude Include="Header_Files\SoundManager.h" />
+    <ClInclude Include="Header_Files\SpriteManager.h" />
+    <ClInclude Include="Header_Files\Player.h" />
+    <ClInclude Include="Header_Files\StateParser.h" />
+    <ClInclude Include="Header_Files\TextDisplay.h" />
+    <ClInclude Include="Header_Files\tinystr.h" />
+    <ClInclude Include="Header_Files\tinyxml.h" />
+    <ClInclude Include="Header_Files\Vector2D.h" />
+    <ClInclude Include="Header_Files\Bunker.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
