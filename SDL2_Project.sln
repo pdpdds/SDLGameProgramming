@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "catquest", "sdl2\catquest\c
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CaveStory", "sdl2\CaveStory\msvc2003\CSE2.vcxproj", "{6B8CC57F-5656-4C4B-8FCB-B0C326FCB4D4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chess", "sdl2\chess\chess.vcxproj", "{E14FD117-3921-4B2D-BC8A-6C36DA4B9B37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,12 @@ Global
 		{6B8CC57F-5656-4C4B-8FCB-B0C326FCB4D4}.Release|x64.ActiveCfg = Release|Win32
 		{6B8CC57F-5656-4C4B-8FCB-B0C326FCB4D4}.Release|x86.ActiveCfg = Release|Win32
 		{6B8CC57F-5656-4C4B-8FCB-B0C326FCB4D4}.Release|x86.Build.0 = Release|Win32
+		{E14FD117-3921-4B2D-BC8A-6C36DA4B9B37}.Debug|x64.ActiveCfg = Debug|Win32
+		{E14FD117-3921-4B2D-BC8A-6C36DA4B9B37}.Debug|x86.ActiveCfg = Debug|Win32
+		{E14FD117-3921-4B2D-BC8A-6C36DA4B9B37}.Debug|x86.Build.0 = Debug|Win32
+		{E14FD117-3921-4B2D-BC8A-6C36DA4B9B37}.Release|x64.ActiveCfg = Release|Win32
+		{E14FD117-3921-4B2D-BC8A-6C36DA4B9B37}.Release|x86.ActiveCfg = Release|Win32
+		{E14FD117-3921-4B2D-BC8A-6C36DA4B9B37}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

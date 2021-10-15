@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f1edb2d3-a71c-4487-a51d-df2a7d15d462}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bitboards.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\board.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bot.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\button.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\display.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eval.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\legal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ltexture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\move.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\movegen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\piece.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\square.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zobrist.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Makefile">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
