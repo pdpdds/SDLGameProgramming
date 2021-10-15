@@ -1,0 +1,1 @@
+C:\GitHub\SDLGameProgramming\sdl2\flashback\Debug\flashback.vcxproj.CopyComplete

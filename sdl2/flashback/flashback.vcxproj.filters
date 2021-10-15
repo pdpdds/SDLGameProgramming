@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="modplug">
+      <UniqueIdentifier>{15cd15e8-2bf0-4410-91c3-935538dca7d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cutscene.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fs.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mod_player.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ogg_player.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_aba.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="scaler.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="seq_player.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sfx_player.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="intern.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mixer.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="unpack.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="video.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="unistd.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="dynlib.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="locale.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="screenshot.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="systemstub.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="collision.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cutscene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fs.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mod_player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ogg_player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="piege.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_aba.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="scaler.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="seq_player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sfx_player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mixer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="resource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="staticres.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="video.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dummy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dynlib.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="screenshot.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="systemstub_sdl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="unpack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\fastmix.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_669.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_abc.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_amf.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_ams.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_dbm.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_dmf.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_dsm.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_far.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_it.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_j2b.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_mdl.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_med.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_mid.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_mod.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_mt2.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_mtm.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_okt.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_pat.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_psm.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_ptm.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_s3m.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_stm.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_ult.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_umx.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_wav.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\load_xm.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\mmcmp.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\modplug.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\snd_dsp.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\snd_flt.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\snd_fx.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\sndfile.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\libmodplug\src\sndmix.cpp">
+      <Filter>modplug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="rs.cfg">
+      <Filter>소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>

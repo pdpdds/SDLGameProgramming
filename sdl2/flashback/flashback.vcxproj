@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{8EDD19E6-496C-48B4-91F6-032A664B294A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>platformer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>flashback</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>SDL_MAIN_HANDLED;MODPLUG_BUILD;USE_MODPLUG;_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./3rdparty\libretro-common\include;./3rdparty\libco;./3rdparty\libmodplug\src;./3rdparty\libmodplug\src/libmodplug</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>BERMUDA_WIN32;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="cutscene.h" />
+    <ClInclude Include="dirent.h" />
+    <ClInclude Include="dynlib.h" />
+    <ClInclude Include="file.h" />
+    <ClInclude Include="fs.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="getopt.h" />
+    <ClInclude Include="graphics.h" />
+    <ClInclude Include="intern.h" />
+    <ClInclude Include="locale.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="mixer.h" />
+    <ClInclude Include="mod_player.h" />
+    <ClInclude Include="ogg_player.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource_aba.h" />
+    <ClInclude Include="scaler.h" />
+    <ClInclude Include="screenshot.h" />
+    <ClInclude Include="seq_player.h" />
+    <ClInclude Include="sfx_player.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="systemstub.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="unistd.h" />
+    <ClInclude Include="unpack.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="video.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3rdparty\libmodplug\src\fastmix.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_669.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_abc.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_amf.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_ams.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_dbm.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_dmf.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_dsm.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_far.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_it.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_j2b.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_mdl.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_med.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_mid.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_mod.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_mt2.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_mtm.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_okt.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_pat.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_psm.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_ptm.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_s3m.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_stm.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_ult.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_umx.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_wav.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\load_xm.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\mmcmp.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\modplug.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\sndfile.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\sndmix.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\snd_dsp.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\snd_flt.cpp" />
+    <ClCompile Include="3rdparty\libmodplug\src\snd_fx.cpp" />
+    <ClCompile Include="collision.cpp" />
+    <ClCompile Include="cutscene.cpp" />
+    <ClCompile Include="dummy.cpp" />
+    <ClCompile Include="dynlib.cpp" />
+    <ClCompile Include="file.cpp" />
+    <ClCompile Include="fs.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="getopt.c" />
+    <ClCompile Include="graphics.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="mixer.cpp" />
+    <ClCompile Include="mod_player.cpp" />
+    <ClCompile Include="ogg_player.cpp" />
+    <ClCompile Include="piege.cpp" />
+    <ClCompile Include="resource.cpp" />
+    <ClCompile Include="resource_aba.cpp" />
+    <ClCompile Include="scaler.cpp" />
+    <ClCompile Include="screenshot.cpp" />
+    <ClCompile Include="seq_player.cpp" />
+    <ClCompile Include="sfx_player.cpp" />
+    <ClCompile Include="staticres.cpp" />
+    <ClCompile Include="systemstub_sdl.cpp" />
+    <ClCompile Include="unpack.cpp" />
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="video.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="rs.cfg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
