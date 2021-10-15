@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{1c3ca646-cb2d-4a36-9f35-cfa1fd088f63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="util\levels.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\tiles.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.c" />
+    <ClCompile Include="game.c" />
+    <ClCompile Include="monster.c" />
+    <ClCompile Include="player.c" />
+    <ClCompile Include="sound.c" />
+    <ClCompile Include="world.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util\util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="monster.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="sound.h" />
+    <ClInclude Include="world.h" />
+  </ItemGroup>
+</Project>

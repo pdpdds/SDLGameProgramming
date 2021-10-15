@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\button.cpp" />
+    <ClCompile Include="src\checkbox.cpp" />
+    <ClCompile Include="src\colorpicker.cpp" />
+    <ClCompile Include="src\colorwheel.cpp" />
+    <ClCompile Include="src\combobox.cpp" />
+    <ClCompile Include="src\common.cpp" />
+    <ClCompile Include="src\graph.cpp" />
+    <ClCompile Include="src\imagepanel.cpp" />
+    <ClCompile Include="src\imageview.cpp" />
+    <ClCompile Include="src\label.cpp" />
+    <ClCompile Include="src\layout.cpp" />
+    <ClCompile Include="src\messagedialog.cpp" />
+    <ClCompile Include="src\nanogui_resources.cpp" />
+    <ClCompile Include="src\popup.cpp" />
+    <ClCompile Include="src\popupbutton.cpp" />
+    <ClCompile Include="src\progressbar.cpp" />
+    <ClCompile Include="src\screen.cpp" />
+    <ClCompile Include="src\serializer.cpp" />
+    <ClCompile Include="src\slider.cpp" />
+    <ClCompile Include="src\stackedwidget.cpp" />
+    <ClCompile Include="src\tabheader.cpp" />
+    <ClCompile Include="src\tabwidget.cpp" />
+    <ClCompile Include="src\textbox.cpp" />
+    <ClCompile Include="src\theme.cpp" />
+    <ClCompile Include="src\vscrollpanel.cpp" />
+    <ClCompile Include="src\widget.cpp" />
+    <ClCompile Include="src\window.cpp" />
+    <ClCompile Include="ext\nanovg\nanovg.c">
+      <Filter>ext\nanovg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glutil.cpp" />
+    <ClCompile Include="src\example2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{48bb4997-ec7c-405d-a186-f5f3f198de02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\serializer">
+      <UniqueIdentifier>{3135ab25-1e32-4261-b71b-95feb08de083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{50e08a04-eaac-4d10-a2a4-7c286499da09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\eigen">
+      <UniqueIdentifier>{696f526e-3bf5-4f3d-8384-bda3cc536518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\nanovg">
+      <UniqueIdentifier>{e9be7551-b6a2-4ea6-9d35-ce2b859c8239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\eigen\src">
+      <UniqueIdentifier>{9de859e8-2c14-41d4-b260-81c2d9f26ad7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\nanogui\button.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\checkbox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\colorpicker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\colorwheel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\combobox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\compat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\entypo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\formhelper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\glutil.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\graph.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\imagepanel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\imageview.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\label.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\layout.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\messagedialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\nanogui.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\object.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\opengl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\popup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\popupbutton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\progressbar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\screen.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\slider.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\stackedwidget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\tabheader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\tabwidget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\textbox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\theme.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\toolbutton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\vscrollpanel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\widget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\window.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\serializer\core.h">
+      <Filter>include\serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\serializer\opengl.h">
+      <Filter>include\serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nanogui\serializer\sparse.h">
+      <Filter>include\serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\nanovg\fontstash.h">
+      <Filter>ext\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\nanovg\nanovg.h">
+      <Filter>ext\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\nanovg\nanovg_gl.h">
+      <Filter>ext\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\nanovg\nanovg_gl_utils.h">
+      <Filter>ext\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\nanovg\stb_image.h">
+      <Filter>ext\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\nanovg\stb_truetype.h">
+      <Filter>ext\nanovg</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

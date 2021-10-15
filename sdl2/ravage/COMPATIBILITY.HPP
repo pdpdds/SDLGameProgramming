@@ -1,0 +1,41 @@
+#ifndef AH_COMPATIBILITY
+#define AH_COMPATIBILITY
+
+#ifdef WINDOWS
+#define XSCALE 640
+#define YSCALE 480
+#define WINDOW_FLAGS SDL_WINDOW_OPENGL
+#define SDL_INIT_FLAGS SDL_INIT_VIDEO | SDL_INIT_TIMER | SDL_INIT_AUDIO | SDL_INIT_JOYSTICK
+#define INPUT_FLAGS R_INPUT_KEYBOARD | R_INPUT_MOUSE | R_INPUT_JOYPAD
+
+//#include <Windows.h>
+#include <sys\types.h>
+
+#define strcmpi _strcmpi
+#define strlwr _strlwr
+#define itoa _itoa
+//#define snprintf _snprintf
+#endif // WINDOWS
+
+#ifdef LINUX
+
+#ifdef PANDORA
+#define XSCALE 800
+#define YSCALE 480
+#define WINDOW_FLAGS SDL_WINDOW_OPENGL | SDL_WINDOW_FULLSCREEN
+#define SDL_INIT_FLAGS SDL_INIT_VIDEO | SDL_INIT_TIMER | SDL_INIT_AUDIO | SDL_INIT_JOYSTICK
+#define INPUT_FLAGS R_INPUT_KEYBOARD | R_INPUT_MOUSE | R_INPUT_JOYPAD
+#else
+#define XSCALE 640
+#define YSCALE 480
+#define WINDOW_FLAGS SDL_WINDOW_OPENGL
+#define SDL_INIT_FLAGS SDL_INIT_VIDEO | SDL_INIT_TIMER | SDL_INIT_AUDIO | SDL_INIT_JOYSTICK
+#define INPUT_FLAGS R_INPUT_KEYBOARD | R_INPUT_MOUSE | R_INPUT_JOYPAD
+#endif
+
+#include <unistd.h>
+#define strcmpi strcasecmp
+
+#endif // LINUX
+
+#endif

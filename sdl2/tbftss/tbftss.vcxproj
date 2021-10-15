@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\battle\ai.h" />
+    <ClInclude Include="src\battle\battle.h" />
+    <ClInclude Include="src\battle\bullets.h" />
+    <ClInclude Include="src\battle\capitalShips.h" />
+    <ClInclude Include="src\battle\debris.h" />
+    <ClInclude Include="src\battle\effects.h" />
+    <ClInclude Include="src\battle\entities.h" />
+    <ClInclude Include="src\battle\fighters.h" />
+    <ClInclude Include="src\battle\hud.h" />
+    <ClInclude Include="src\battle\items.h" />
+    <ClInclude Include="src\battle\jumpgate.h" />
+    <ClInclude Include="src\battle\locations.h" />
+    <ClInclude Include="src\battle\messageBox.h" />
+    <ClInclude Include="src\battle\mine.h" />
+    <ClInclude Include="src\battle\missionInfo.h" />
+    <ClInclude Include="src\battle\objectives.h" />
+    <ClInclude Include="src\battle\player.h" />
+    <ClInclude Include="src\battle\quadtree.h" />
+    <ClInclude Include="src\battle\radar.h" />
+    <ClInclude Include="src\battle\rope.h" />
+    <ClInclude Include="src\battle\script.h" />
+    <ClInclude Include="src\battle\spawners.h" />
+    <ClInclude Include="src\battle\starfield.h" />
+    <ClInclude Include="src\battle\waypoints.h" />
+    <ClInclude Include="src\challenges\challengeHome.h" />
+    <ClInclude Include="src\challenges\challenges.h" />
+    <ClInclude Include="src\common.h" />
+    <ClInclude Include="src\defs.h" />
+    <ClInclude Include="src\dirent.h" />
+    <ClInclude Include="src\galaxy\galacticMap.h" />
+    <ClInclude Include="src\galaxy\mission.h" />
+    <ClInclude Include="src\galaxy\starSystems.h" />
+    <ClInclude Include="src\game\credits.h" />
+    <ClInclude Include="src\game\fighterDatabase.h" />
+    <ClInclude Include="src\game\game.h" />
+    <ClInclude Include="src\game\load.h" />
+    <ClInclude Include="src\game\options.h" />
+    <ClInclude Include="src\game\save.h" />
+    <ClInclude Include="src\game\stats.h" />
+    <ClInclude Include="src\game\title.h" />
+    <ClInclude Include="src\game\trophies.h" />
+    <ClInclude Include="src\json\cJSON.h" />
+    <ClInclude Include="src\main.h" />
+    <ClInclude Include="src\plat\win32\win32Init.h" />
+    <ClInclude Include="src\structs.h" />
+    <ClInclude Include="src\system\atlas.h" />
+    <ClInclude Include="src\system\controls.h" />
+    <ClInclude Include="src\system\dev.h" />
+    <ClInclude Include="src\system\draw.h" />
+    <ClInclude Include="src\system\i18n.h" />
+    <ClInclude Include="src\system\init.h" />
+    <ClInclude Include="src\system\input.h" />
+    <ClInclude Include="src\system\io.h" />
+    <ClInclude Include="src\system\lookup.h" />
+    <ClInclude Include="src\system\modalDialog.h" />
+    <ClInclude Include="src\system\resources.h" />
+    <ClInclude Include="src\system\sound.h" />
+    <ClInclude Include="src\system\text.h" />
+    <ClInclude Include="src\system\textures.h" />
+    <ClInclude Include="src\system\transition.h" />
+    <ClInclude Include="src\system\util.h" />
+    <ClInclude Include="src\system\widgets.h" />
+    <ClInclude Include="src\test\testMission.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\battle\ai.c" />
+    <ClCompile Include="src\battle\battle.c" />
+    <ClCompile Include="src\battle\bullets.c" />
+    <ClCompile Include="src\battle\capitalShips.c" />
+    <ClCompile Include="src\battle\debris.c" />
+    <ClCompile Include="src\battle\effects.c" />
+    <ClCompile Include="src\battle\entities.c" />
+    <ClCompile Include="src\battle\fighters.c" />
+    <ClCompile Include="src\battle\hud.c" />
+    <ClCompile Include="src\battle\items.c" />
+    <ClCompile Include="src\battle\jumpgate.c" />
+    <ClCompile Include="src\battle\locations.c" />
+    <ClCompile Include="src\battle\messageBox.c" />
+    <ClCompile Include="src\battle\mine.c" />
+    <ClCompile Include="src\battle\missionInfo.c" />
+    <ClCompile Include="src\battle\objectives.c" />
+    <ClCompile Include="src\battle\player.c" />
+    <ClCompile Include="src\battle\quadtree.c" />
+    <ClCompile Include="src\battle\radar.c" />
+    <ClCompile Include="src\battle\rope.c" />
+    <ClCompile Include="src\battle\script.c" />
+    <ClCompile Include="src\battle\spawners.c" />
+    <ClCompile Include="src\battle\starfield.c" />
+    <ClCompile Include="src\battle\waypoints.c" />
+    <ClCompile Include="src\challenges\challengeHome.c" />
+    <ClCompile Include="src\challenges\challenges.c" />
+    <ClCompile Include="src\galaxy\galacticMap.c" />
+    <ClCompile Include="src\galaxy\mission.c" />
+    <ClCompile Include="src\galaxy\starSystems.c" />
+    <ClCompile Include="src\game\credits.c" />
+    <ClCompile Include="src\game\fighterDatabase.c" />
+    <ClCompile Include="src\game\game.c" />
+    <ClCompile Include="src\game\load.c" />
+    <ClCompile Include="src\game\options.c" />
+    <ClCompile Include="src\game\save.c" />
+    <ClCompile Include="src\game\stats.c" />
+    <ClCompile Include="src\game\title.c" />
+    <ClCompile Include="src\game\trophies.c" />
+    <ClCompile Include="src\json\cJSON.c" />
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\plat\win32\win32Init.c" />
+    <ClCompile Include="src\system\atlas.c" />
+    <ClCompile Include="src\system\controls.c" />
+    <ClCompile Include="src\system\dev.c" />
+    <ClCompile Include="src\system\draw.c" />
+    <ClCompile Include="src\system\i18n.c" />
+    <ClCompile Include="src\system\init.c" />
+    <ClCompile Include="src\system\input.c" />
+    <ClCompile Include="src\system\io.c" />
+    <ClCompile Include="src\system\lookup.c" />
+    <ClCompile Include="src\system\modalDialog.c" />
+    <ClCompile Include="src\system\resources.c" />
+    <ClCompile Include="src\system\sound.c" />
+    <ClCompile Include="src\system\text.c" />
+    <ClCompile Include="src\system\textures.c" />
+    <ClCompile Include="src\system\transition.c" />
+    <ClCompile Include="src\system\util.c" />
+    <ClCompile Include="src\system\widgets.c" />
+    <ClCompile Include="src\test\testMission.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B495D082-C8B1-4B0F-87B2-805560290F99}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SDL2Framework</RootNamespace>
+    <ProjectName>tbftss</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)/Intermediate/$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\Bin32\</OutDir>
+    <IntDir>$(SolutionDir)/Intermediate/$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>MALLOC_H;SDL_MAIN_HANDLED;WINDOWS;WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\core_project\SDLProgramming\SDL2_Module\SDL2\include;./;./include;D:\core_project\SDLProgramming\SDL2_Module\SDL2_mixer;D:\core_project\SDLProgramming\SDL2_Module\SDL2_image;D:\core_project\SDLProgramming\SDL2_Module\SDL2_ttf;./src</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819;4305;4244;4033;4018;4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../../../SDL2_Module/SDL2/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../../../../SDL2_Module/prebuilt/win32/lib/x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2main.lib;sdl2.lib;sdl2_mixer.lib;sdl2_image.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

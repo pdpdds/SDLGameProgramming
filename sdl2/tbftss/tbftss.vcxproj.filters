@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{927194e8-bfd5-4be3-a9c6-d2a0dd9051ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\battle">
+      <UniqueIdentifier>{2becf236-de08-4ab3-b3d7-6944bf5f6602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\challenges">
+      <UniqueIdentifier>{ca20192d-564c-4780-88c9-53d23416f322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\galaxy">
+      <UniqueIdentifier>{ea7f6cfd-032f-419c-8a0f-4247be2955ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{9dec47c0-5fc6-439f-8459-72c39db4f816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\json">
+      <UniqueIdentifier>{bc44ec20-ca0a-476a-bb76-0dc644d00b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\plat">
+      <UniqueIdentifier>{4ecf3f00-1dac-462e-926b-1395a92fa4a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system">
+      <UniqueIdentifier>{d69cfd5a-ab0f-4ce9-bcf3-6f4c578e43c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test">
+      <UniqueIdentifier>{82108c77-5394-4ecc-b225-4058771b388a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\structs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\ai.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\battle.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\bullets.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\capitalShips.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\debris.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\effects.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\entities.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\fighters.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\hud.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\items.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\jumpgate.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\locations.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\messageBox.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\mine.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\missionInfo.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\objectives.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\player.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\quadtree.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\radar.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\rope.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\script.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\spawners.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\starfield.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\battle\waypoints.h">
+      <Filter>src\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\challenges\challengeHome.h">
+      <Filter>src\challenges</Filter>
+    </ClInclude>
+    <ClInclude Include="src\challenges\challenges.h">
+      <Filter>src\challenges</Filter>
+    </ClInclude>
+    <ClInclude Include="src\galaxy\galacticMap.h">
+      <Filter>src\galaxy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\galaxy\mission.h">
+      <Filter>src\galaxy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\galaxy\starSystems.h">
+      <Filter>src\galaxy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\credits.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\fighterDatabase.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\game.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\load.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\options.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\save.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\stats.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\title.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\trophies.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\cJSON.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plat\win32\win32Init.h">
+      <Filter>src\plat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\atlas.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\controls.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\dev.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\draw.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\i18n.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\init.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\input.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\io.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\lookup.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\modalDialog.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\resources.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\sound.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\text.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\textures.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\transition.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\util.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\widgets.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\testMission.h">
+      <Filter>src\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dirent.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\ai.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\battle.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\bullets.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\capitalShips.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\debris.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\effects.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\entities.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\fighters.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\hud.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\items.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\jumpgate.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\locations.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\messageBox.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\mine.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\missionInfo.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\objectives.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\player.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\quadtree.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\radar.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\rope.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\script.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\spawners.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\starfield.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\battle\waypoints.c">
+      <Filter>src\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\challenges\challengeHome.c">
+      <Filter>src\challenges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\challenges\challenges.c">
+      <Filter>src\challenges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\galaxy\galacticMap.c">
+      <Filter>src\galaxy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\galaxy\mission.c">
+      <Filter>src\galaxy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\galaxy\starSystems.c">
+      <Filter>src\galaxy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\credits.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\fighterDatabase.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\game.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\load.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\options.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\save.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\stats.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\title.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\trophies.c">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\json\cJSON.c">
+      <Filter>src\json</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plat\win32\win32Init.c">
+      <Filter>src\plat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\atlas.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\controls.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\dev.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\draw.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\i18n.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\init.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\input.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\io.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\lookup.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\modalDialog.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\resources.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\sound.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\text.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\textures.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\transition.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\util.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\widgets.c">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\testMission.c">
+      <Filter>src\test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
