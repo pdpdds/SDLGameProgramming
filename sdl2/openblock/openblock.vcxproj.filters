@@ -1,0 +1,727 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\system">
+      <UniqueIdentifier>{ebac69eb-8e0c-453c-99d3-dd5f805ae9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\system\sdl">
+      <UniqueIdentifier>{fe72a8e5-9b13-40c0-b526-12e348d14440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\system\util">
+      <UniqueIdentifier>{619a086e-ec92-440b-986b-196a3f30cfb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game">
+      <UniqueIdentifier>{95b25b2d-b655-4651-b7dc-e178cfbee6b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\components">
+      <UniqueIdentifier>{4ca3e1a4-4349-4133-b8a0-55f10b9290ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\components\animations">
+      <UniqueIdentifier>{d054cf10-66af-40a4-b771-4834dd7ecfd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\components\rotations">
+      <UniqueIdentifier>{e7d9f46d-feed-4381-a11d-11d20e9a76fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\components\well">
+      <UniqueIdentifier>{d1e65726-7376-4062-8001-d99a345cbf8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\layout">
+      <UniqueIdentifier>{03a307b9-378f-4d97-afe2-65669cfd5449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\layout\gameplay">
+      <UniqueIdentifier>{f756fa7a-6159-4ae5-b716-7b0d8d153917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\layout\menu">
+      <UniqueIdentifier>{c099bb62-5343-41b1-9d8a-d49cfc860809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\layout\options">
+      <UniqueIdentifier>{b848fef2-b8e7-4578-9e34-27781585da8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\states">
+      <UniqueIdentifier>{546bad06-7a15-4a0e-8f19-f69525718efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\states\substates">
+      <UniqueIdentifier>{0078b965-2b2f-4929-bce7-4c1b5de8274a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\states\substates\ingame">
+      <UniqueIdentifier>{d5b01a25-3c51-429f-9029-96a596d682b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\states\substates\mainmenu">
+      <UniqueIdentifier>{d8f36579-bfb4-4678-a077-e9a11a3c52a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\util">
+      <UniqueIdentifier>{274a7dd7-e930-4199-b4e5-2af1e7ce8c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\sdl2pp">
+      <UniqueIdentifier>{3624fe56-75cf-4ce3-8250-c3cc33743cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\sdl2pp\external">
+      <UniqueIdentifier>{c24bece5-8d8b-40a0-a062-f35a190294e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\Color.cpp">
+      <Filter>소스 파일\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\ConfigFile.cpp">
+      <Filter>소스 파일\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\Event.cpp">
+      <Filter>소스 파일\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\InputConfigFile.cpp">
+      <Filter>소스 파일\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\InputMap.cpp">
+      <Filter>소스 파일\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\Log.cpp">
+      <Filter>소스 파일\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\Paths.cpp">
+      <Filter>소스 파일\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\Window.cpp">
+      <Filter>소스 파일\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\sdl\SDLAudioContext.cpp">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\sdl\SDLFont.cpp">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\sdl\SDLGraphicsContext.cpp">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\sdl\SDLMusic.cpp">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\sdl\SDLSoundEffect.cpp">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\sdl\SDLTexture.cpp">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\sdl\SDLWindow.cpp">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\AppContext.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\BattleAttackTable.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\GameConfigFile.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\ScoreTable.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\Theme.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\HoldQueue.cpp">
+      <Filter>소스 파일\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\Mino.cpp">
+      <Filter>소스 파일\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\MinoStorage.cpp">
+      <Filter>소스 파일\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\NextQueue.cpp">
+      <Filter>소스 파일\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\Piece.cpp">
+      <Filter>소스 파일\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\PieceFactory.cpp">
+      <Filter>소스 파일\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\PieceType.cpp">
+      <Filter>소스 파일\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\Well.cpp">
+      <Filter>소스 파일\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\animations\BattleAttack.cpp">
+      <Filter>소스 파일\game\components\animations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\animations\CellLockAnim.cpp">
+      <Filter>소스 파일\game\components\animations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\animations\HalfHeightLineClearAnim.cpp">
+      <Filter>소스 파일\game\components\animations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\animations\LineClearAnim.cpp">
+      <Filter>소스 파일\game\components\animations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\animations\TextPopup.cpp">
+      <Filter>소스 파일\game\components\animations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\rotations\Classic.cpp">
+      <Filter>소스 파일\game\components\rotations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\rotations\RotationFactory.cpp">
+      <Filter>소스 파일\game\components\rotations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\rotations\SRS.cpp">
+      <Filter>소스 파일\game\components\rotations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\rotations\TGM.cpp">
+      <Filter>소스 파일\game\components\rotations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\well\Ascii.cpp">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\well\AutoRepeat.cpp">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\well\Gravity.cpp">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\well\Input.cpp">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\well\LockDelay.cpp">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\well\Render.cpp">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\well\TSpin.cpp">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\layout\gameplay\GarbageGauge.cpp">
+      <Filter>소스 파일\game\layout\gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\layout\gameplay\PlayerArea.cpp">
+      <Filter>소스 파일\game\layout\gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\layout\gameplay\WellContainer.cpp">
+      <Filter>소스 파일\game\layout\gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\layout\menu\Logo.cpp">
+      <Filter>소스 파일\game\layout\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\layout\menu\MainMenuBtn.cpp">
+      <Filter>소스 파일\game\layout\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\layout\menu\PieceRain.cpp">
+      <Filter>소스 파일\game\layout\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\layout\options\CategoryBtn.cpp">
+      <Filter>소스 파일\game\layout\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\layout\options\DeviceChooser.cpp">
+      <Filter>소스 파일\game\layout\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\layout\options\InputField.cpp">
+      <Filter>소스 파일\game\layout\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\layout\options\OptionsItem.cpp">
+      <Filter>소스 파일\game\layout\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\layout\options\ToggleBtn.cpp">
+      <Filter>소스 파일\game\layout\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\layout\options\ValueChooser.cpp">
+      <Filter>소스 파일\game\layout\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\states\IngameState.cpp">
+      <Filter>소스 파일\game\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\states\InitState.cpp">
+      <Filter>소스 파일\game\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\states\MainMenuState.cpp">
+      <Filter>소스 파일\game\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\states\substates\ingame\Countdown.cpp">
+      <Filter>소스 파일\game\states\substates\ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\states\substates\ingame\FadeInOut.cpp">
+      <Filter>소스 파일\game\states\substates\ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\states\substates\ingame\Gameplay.cpp">
+      <Filter>소스 파일\game\states\substates\ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\states\substates\ingame\Pause.cpp">
+      <Filter>소스 파일\game\states\substates\ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\states\substates\ingame\PlayerSelect.cpp">
+      <Filter>소스 파일\game\states\substates\ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\states\substates\ingame\Statistics.cpp">
+      <Filter>소스 파일\game\states\substates\ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\states\substates\mainmenu\Base.cpp">
+      <Filter>소스 파일\game\states\substates\mainmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\states\substates\mainmenu\Options.cpp">
+      <Filter>소스 파일\game\states\substates\mainmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\util\DurationToString.cpp">
+      <Filter>소스 파일\game\util</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Surface.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\AudioDevice.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\AudioLock.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\AudioSpec.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Chunk.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Exception.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Font.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Mixer.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Music.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Point.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Rect.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Renderer.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\RWops.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\SDL.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\SDLImage.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\SDLMixer.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\SDLTTF.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\SurfaceLock.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Texture.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\TextureLock.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Wav.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\_Window.cc">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\system\AudioContext.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Color.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\ConfigFile.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Event.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Font.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\GraphicsContext.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\InputConfigFile.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\InputMap.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Localize.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Log.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Music.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Paths.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Rectangle.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\SoundEffect.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Texture.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Window.h">
+      <Filter>소스 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\sdl\SDLAudioContext.h">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\sdl\SDLFont.h">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\sdl\SDLGraphicsContext.h">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\sdl\SDLMusic.h">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\sdl\SDLSoundEffect.h">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\sdl\SDLTexture.h">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\sdl\SDLWindow.h">
+      <Filter>소스 파일\system\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\util\MakeUnique.h">
+      <Filter>소스 파일\system\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\util\Regex.h">
+      <Filter>소스 파일\system\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\AppContext.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\BattleAttackTable.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\GameConfigFile.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\GameState.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\PlayerStatistics.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\ScoreTable.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\SysConfig.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\Theme.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\Timing.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\Transition.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\WellConfig.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\WellEvent.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\HoldQueue.h">
+      <Filter>소스 파일\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\LockDelayType.h">
+      <Filter>소스 파일\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\Mino.h">
+      <Filter>소스 파일\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\MinoStorage.h">
+      <Filter>소스 파일\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\NextQueue.h">
+      <Filter>소스 파일\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\Piece.h">
+      <Filter>소스 파일\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\PieceFactory.h">
+      <Filter>소스 파일\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\PieceType.h">
+      <Filter>소스 파일\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\Well.h">
+      <Filter>소스 파일\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\animations\BattleAttack.h">
+      <Filter>소스 파일\game\components\animations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\animations\CellLockAnim.h">
+      <Filter>소스 파일\game\components\animations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\animations\HalfHeightLineClearAnim.h">
+      <Filter>소스 파일\game\components\animations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\animations\LineClearAnim.h">
+      <Filter>소스 파일\game\components\animations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\animations\TextPopup.h">
+      <Filter>소스 파일\game\components\animations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\animations\WellAnimation.h">
+      <Filter>소스 파일\game\components\animations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\rotations\Classic.h">
+      <Filter>소스 파일\game\components\rotations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\rotations\RotationFactory.h">
+      <Filter>소스 파일\game\components\rotations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\rotations\RotationFn.h">
+      <Filter>소스 파일\game\components\rotations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\rotations\RotationStyle.h">
+      <Filter>소스 파일\game\components\rotations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\rotations\SRS.h">
+      <Filter>소스 파일\game\components\rotations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\rotations\TGM.h">
+      <Filter>소스 파일\game\components\rotations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\well\Ascii.h">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\well\AutoRepeat.h">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\well\Gravity.h">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\well\Input.h">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\well\LockDelay.h">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\well\Render.h">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\well\TSpin.h">
+      <Filter>소스 파일\game\components\well</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\Box.h">
+      <Filter>소스 파일\game\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\MenuItem.h">
+      <Filter>소스 파일\game\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\gameplay\GarbageGauge.h">
+      <Filter>소스 파일\game\layout\gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\gameplay\PlayerArea.h">
+      <Filter>소스 파일\game\layout\gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\gameplay\WellContainer.h">
+      <Filter>소스 파일\game\layout\gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\menu\Button.h">
+      <Filter>소스 파일\game\layout\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\menu\Logo.h">
+      <Filter>소스 파일\game\layout\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\menu\MainMenuBtn.h">
+      <Filter>소스 파일\game\layout\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\menu\PieceRain.h">
+      <Filter>소스 파일\game\layout\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\options\CategoryBtn.h">
+      <Filter>소스 파일\game\layout\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\options\DeviceChooser.h">
+      <Filter>소스 파일\game\layout\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\options\InputField.h">
+      <Filter>소스 파일\game\layout\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\options\OptionsItem.h">
+      <Filter>소스 파일\game\layout\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\options\ToggleBtn.h">
+      <Filter>소스 파일\game\layout\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\layout\options\ValueChooser.h">
+      <Filter>소스 파일\game\layout\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\IngameState.h">
+      <Filter>소스 파일\game\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\InitState.h">
+      <Filter>소스 파일\game\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\MainMenuState.h">
+      <Filter>소스 파일\game\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\substates\Ingame.h">
+      <Filter>소스 파일\game\states\substates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\substates\MainMenu.h">
+      <Filter>소스 파일\game\states\substates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\substates\ingame\Countdown.h">
+      <Filter>소스 파일\game\states\substates\ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\substates\ingame\FadeInOut.h">
+      <Filter>소스 파일\game\states\substates\ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\substates\ingame\Gameplay.h">
+      <Filter>소스 파일\game\states\substates\ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\substates\ingame\Pause.h">
+      <Filter>소스 파일\game\states\substates\ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\substates\ingame\PlayerSelect.h">
+      <Filter>소스 파일\game\states\substates\ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\substates\ingame\Statistics.h">
+      <Filter>소스 파일\game\states\substates\ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\substates\mainmenu\Base.h">
+      <Filter>소스 파일\game\states\substates\mainmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\states\substates\mainmenu\Options.h">
+      <Filter>소스 파일\game\states\substates\mainmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\util\CircularModulo.h">
+      <Filter>소스 파일\game\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\util\DurationToString.h">
+      <Filter>소스 파일\game\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\util\Matrix.h">
+      <Filter>소스 파일\game\util</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\AudioDevice.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\AudioSpec.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Chunk.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Config.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\ContainerRWops.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Exception.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Export.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Font.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Mixer.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Music.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Optional.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Point.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Rect.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Renderer.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\RWops.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\SDL.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\SDL2pp.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\SDLImage.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\SDLMixer.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\SDLTTF.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\StreamRWops.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Surface.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Texture.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Wav.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\external\libcpp_optional.hh">
+      <Filter>소스 파일\sdl2pp\external</Filter>
+    </ClInclude>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\_Window.hh">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\system\CMakeLists.txt">
+      <Filter>소스 파일\system</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="external\libSDL2pp\SDL2pp\Config.hh.in">
+      <Filter>소스 파일\sdl2pp</Filter>
+    </None>
+  </ItemGroup>
+</Project>

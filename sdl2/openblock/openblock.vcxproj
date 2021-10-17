@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="external\libSDL2pp\SDL2pp\AudioDevice.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\AudioLock.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\AudioSpec.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Chunk.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Exception.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Font.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Mixer.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Music.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Point.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Rect.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Renderer.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\RWops.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\SDL.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\SDLImage.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\SDLMixer.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\SDLTTF.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Surface.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\SurfaceLock.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Texture.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\TextureLock.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\Wav.cc" />
+    <ClCompile Include="external\libSDL2pp\SDL2pp\_Window.cc" />
+    <ClCompile Include="src\game\AppContext.cpp" />
+    <ClCompile Include="src\game\BattleAttackTable.cpp" />
+    <ClCompile Include="src\game\components\animations\BattleAttack.cpp" />
+    <ClCompile Include="src\game\components\animations\CellLockAnim.cpp" />
+    <ClCompile Include="src\game\components\animations\HalfHeightLineClearAnim.cpp" />
+    <ClCompile Include="src\game\components\animations\LineClearAnim.cpp" />
+    <ClCompile Include="src\game\components\animations\TextPopup.cpp" />
+    <ClCompile Include="src\game\components\HoldQueue.cpp" />
+    <ClCompile Include="src\game\components\Mino.cpp" />
+    <ClCompile Include="src\game\components\MinoStorage.cpp" />
+    <ClCompile Include="src\game\components\NextQueue.cpp" />
+    <ClCompile Include="src\game\components\Piece.cpp" />
+    <ClCompile Include="src\game\components\PieceFactory.cpp" />
+    <ClCompile Include="src\game\components\PieceType.cpp" />
+    <ClCompile Include="src\game\components\rotations\Classic.cpp" />
+    <ClCompile Include="src\game\components\rotations\RotationFactory.cpp" />
+    <ClCompile Include="src\game\components\rotations\SRS.cpp" />
+    <ClCompile Include="src\game\components\rotations\TGM.cpp" />
+    <ClCompile Include="src\game\components\Well.cpp" />
+    <ClCompile Include="src\game\components\well\Ascii.cpp" />
+    <ClCompile Include="src\game\components\well\AutoRepeat.cpp" />
+    <ClCompile Include="src\game\components\well\Gravity.cpp" />
+    <ClCompile Include="src\game\components\well\Input.cpp" />
+    <ClCompile Include="src\game\components\well\LockDelay.cpp" />
+    <ClCompile Include="src\game\components\well\Render.cpp" />
+    <ClCompile Include="src\game\components\well\TSpin.cpp" />
+    <ClCompile Include="src\game\GameConfigFile.cpp" />
+    <ClCompile Include="src\game\layout\gameplay\GarbageGauge.cpp" />
+    <ClCompile Include="src\game\layout\gameplay\PlayerArea.cpp" />
+    <ClCompile Include="src\game\layout\gameplay\WellContainer.cpp" />
+    <ClCompile Include="src\game\layout\menu\Logo.cpp" />
+    <ClCompile Include="src\game\layout\menu\MainMenuBtn.cpp" />
+    <ClCompile Include="src\game\layout\menu\PieceRain.cpp" />
+    <ClCompile Include="src\game\layout\options\CategoryBtn.cpp" />
+    <ClCompile Include="src\game\layout\options\DeviceChooser.cpp" />
+    <ClCompile Include="src\game\layout\options\InputField.cpp" />
+    <ClCompile Include="src\game\layout\options\OptionsItem.cpp" />
+    <ClCompile Include="src\game\layout\options\ToggleBtn.cpp" />
+    <ClCompile Include="src\game\layout\options\ValueChooser.cpp" />
+    <ClCompile Include="src\game\ScoreTable.cpp" />
+    <ClCompile Include="src\game\states\IngameState.cpp" />
+    <ClCompile Include="src\game\states\InitState.cpp" />
+    <ClCompile Include="src\game\states\MainMenuState.cpp" />
+    <ClCompile Include="src\game\states\substates\ingame\Countdown.cpp" />
+    <ClCompile Include="src\game\states\substates\ingame\FadeInOut.cpp" />
+    <ClCompile Include="src\game\states\substates\ingame\Gameplay.cpp" />
+    <ClCompile Include="src\game\states\substates\ingame\Pause.cpp" />
+    <ClCompile Include="src\game\states\substates\ingame\PlayerSelect.cpp" />
+    <ClCompile Include="src\game\states\substates\ingame\Statistics.cpp" />
+    <ClCompile Include="src\game\states\substates\mainmenu\Base.cpp" />
+    <ClCompile Include="src\game\states\substates\mainmenu\Options.cpp" />
+    <ClCompile Include="src\game\Theme.cpp" />
+    <ClCompile Include="src\game\util\DurationToString.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\system\Color.cpp" />
+    <ClCompile Include="src\system\ConfigFile.cpp" />
+    <ClCompile Include="src\system\Event.cpp" />
+    <ClCompile Include="src\system\InputConfigFile.cpp" />
+    <ClCompile Include="src\system\InputMap.cpp" />
+    <ClCompile Include="src\system\Log.cpp" />
+    <ClCompile Include="src\system\Paths.cpp" />
+    <ClCompile Include="src\system\sdl\SDLAudioContext.cpp" />
+    <ClCompile Include="src\system\sdl\SDLFont.cpp" />
+    <ClCompile Include="src\system\sdl\SDLGraphicsContext.cpp" />
+    <ClCompile Include="src\system\sdl\SDLMusic.cpp" />
+    <ClCompile Include="src\system\sdl\SDLSoundEffect.cpp" />
+    <ClCompile Include="src\system\sdl\SDLTexture.cpp" />
+    <ClCompile Include="src\system\sdl\SDLWindow.cpp" />
+    <ClCompile Include="src\system\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external\libSDL2pp\SDL2pp\AudioDevice.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\AudioSpec.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Chunk.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Config.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\ContainerRWops.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Exception.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Export.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\external\libcpp_optional.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Font.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Mixer.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Music.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Optional.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Point.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Rect.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Renderer.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\RWops.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\SDL.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\SDL2pp.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\SDLImage.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\SDLMixer.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\SDLTTF.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\StreamRWops.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Surface.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Texture.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\Wav.hh" />
+    <ClInclude Include="external\libSDL2pp\SDL2pp\_Window.hh" />
+    <ClInclude Include="src\game\AppContext.h" />
+    <ClInclude Include="src\game\BattleAttackTable.h" />
+    <ClInclude Include="src\game\components\animations\BattleAttack.h" />
+    <ClInclude Include="src\game\components\animations\CellLockAnim.h" />
+    <ClInclude Include="src\game\components\animations\HalfHeightLineClearAnim.h" />
+    <ClInclude Include="src\game\components\animations\LineClearAnim.h" />
+    <ClInclude Include="src\game\components\animations\TextPopup.h" />
+    <ClInclude Include="src\game\components\animations\WellAnimation.h" />
+    <ClInclude Include="src\game\components\HoldQueue.h" />
+    <ClInclude Include="src\game\components\LockDelayType.h" />
+    <ClInclude Include="src\game\components\Mino.h" />
+    <ClInclude Include="src\game\components\MinoStorage.h" />
+    <ClInclude Include="src\game\components\NextQueue.h" />
+    <ClInclude Include="src\game\components\Piece.h" />
+    <ClInclude Include="src\game\components\PieceFactory.h" />
+    <ClInclude Include="src\game\components\PieceType.h" />
+    <ClInclude Include="src\game\components\rotations\Classic.h" />
+    <ClInclude Include="src\game\components\rotations\RotationFactory.h" />
+    <ClInclude Include="src\game\components\rotations\RotationFn.h" />
+    <ClInclude Include="src\game\components\rotations\RotationStyle.h" />
+    <ClInclude Include="src\game\components\rotations\SRS.h" />
+    <ClInclude Include="src\game\components\rotations\TGM.h" />
+    <ClInclude Include="src\game\components\Well.h" />
+    <ClInclude Include="src\game\components\well\Ascii.h" />
+    <ClInclude Include="src\game\components\well\AutoRepeat.h" />
+    <ClInclude Include="src\game\components\well\Gravity.h" />
+    <ClInclude Include="src\game\components\well\Input.h" />
+    <ClInclude Include="src\game\components\well\LockDelay.h" />
+    <ClInclude Include="src\game\components\well\Render.h" />
+    <ClInclude Include="src\game\components\well\TSpin.h" />
+    <ClInclude Include="src\game\GameConfigFile.h" />
+    <ClInclude Include="src\game\GameState.h" />
+    <ClInclude Include="src\game\layout\Box.h" />
+    <ClInclude Include="src\game\layout\gameplay\GarbageGauge.h" />
+    <ClInclude Include="src\game\layout\gameplay\PlayerArea.h" />
+    <ClInclude Include="src\game\layout\gameplay\WellContainer.h" />
+    <ClInclude Include="src\game\layout\MenuItem.h" />
+    <ClInclude Include="src\game\layout\menu\Button.h" />
+    <ClInclude Include="src\game\layout\menu\Logo.h" />
+    <ClInclude Include="src\game\layout\menu\MainMenuBtn.h" />
+    <ClInclude Include="src\game\layout\menu\PieceRain.h" />
+    <ClInclude Include="src\game\layout\options\CategoryBtn.h" />
+    <ClInclude Include="src\game\layout\options\DeviceChooser.h" />
+    <ClInclude Include="src\game\layout\options\InputField.h" />
+    <ClInclude Include="src\game\layout\options\OptionsItem.h" />
+    <ClInclude Include="src\game\layout\options\ToggleBtn.h" />
+    <ClInclude Include="src\game\layout\options\ValueChooser.h" />
+    <ClInclude Include="src\game\PlayerStatistics.h" />
+    <ClInclude Include="src\game\ScoreTable.h" />
+    <ClInclude Include="src\game\states\IngameState.h" />
+    <ClInclude Include="src\game\states\InitState.h" />
+    <ClInclude Include="src\game\states\MainMenuState.h" />
+    <ClInclude Include="src\game\states\substates\Ingame.h" />
+    <ClInclude Include="src\game\states\substates\ingame\Countdown.h" />
+    <ClInclude Include="src\game\states\substates\ingame\FadeInOut.h" />
+    <ClInclude Include="src\game\states\substates\ingame\Gameplay.h" />
+    <ClInclude Include="src\game\states\substates\ingame\Pause.h" />
+    <ClInclude Include="src\game\states\substates\ingame\PlayerSelect.h" />
+    <ClInclude Include="src\game\states\substates\ingame\Statistics.h" />
+    <ClInclude Include="src\game\states\substates\MainMenu.h" />
+    <ClInclude Include="src\game\states\substates\mainmenu\Base.h" />
+    <ClInclude Include="src\game\states\substates\mainmenu\Options.h" />
+    <ClInclude Include="src\game\SysConfig.h" />
+    <ClInclude Include="src\game\Theme.h" />
+    <ClInclude Include="src\game\Timing.h" />
+    <ClInclude Include="src\game\Transition.h" />
+    <ClInclude Include="src\game\util\CircularModulo.h" />
+    <ClInclude Include="src\game\util\DurationToString.h" />
+    <ClInclude Include="src\game\util\Matrix.h" />
+    <ClInclude Include="src\game\WellConfig.h" />
+    <ClInclude Include="src\game\WellEvent.h" />
+    <ClInclude Include="src\system\AudioContext.h" />
+    <ClInclude Include="src\system\Color.h" />
+    <ClInclude Include="src\system\ConfigFile.h" />
+    <ClInclude Include="src\system\Event.h" />
+    <ClInclude Include="src\system\Font.h" />
+    <ClInclude Include="src\system\GraphicsContext.h" />
+    <ClInclude Include="src\system\InputConfigFile.h" />
+    <ClInclude Include="src\system\InputMap.h" />
+    <ClInclude Include="src\system\Localize.h" />
+    <ClInclude Include="src\system\Log.h" />
+    <ClInclude Include="src\system\Music.h" />
+    <ClInclude Include="src\system\Paths.h" />
+    <ClInclude Include="src\system\Rectangle.h" />
+    <ClInclude Include="src\system\sdl\SDLAudioContext.h" />
+    <ClInclude Include="src\system\sdl\SDLFont.h" />
+    <ClInclude Include="src\system\sdl\SDLGraphicsContext.h" />
+    <ClInclude Include="src\system\sdl\SDLMusic.h" />
+    <ClInclude Include="src\system\sdl\SDLSoundEffect.h" />
+    <ClInclude Include="src\system\sdl\SDLTexture.h" />
+    <ClInclude Include="src\system\sdl\SDLWindow.h" />
+    <ClInclude Include="src\system\SoundEffect.h" />
+    <ClInclude Include="src\system\Texture.h" />
+    <ClInclude Include="src\system\util\MakeUnique.h" />
+    <ClInclude Include="src\system\util\Regex.h" />
+    <ClInclude Include="src\system\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\system\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="external\libSDL2pp\SDL2pp\Config.hh.in" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{C4797E3F-25FB-4670-B0FC-018464C04EB9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>platformer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>openblok</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir)/Intermediate/$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>SDL_MAIN_HANDLED;_WINSOCK_DEPRECATED_NO_WARNINGS;SDL;_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;./external/tinydir;./SRC;./external;.\external\libSDL2pp%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4819;4018</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DevPlatform\SDL\SDLProgramming\SDL_Modue\SDL-1.2.15\include;D:\DevPlatform\SDL\SDLProgramming\SDL_Modue\SDL_mixer-1.2.12;D:\DevPlatform\SDL\SDLProgramming\SDL_Modue\SDL_image-1.2.12</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sdlmain.lib;sdl.lib;SDL_mixer.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\DevPlatform\SDL\SDLProgramming\SDL_Modue\SDL-1.2.15\lib\x86</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
