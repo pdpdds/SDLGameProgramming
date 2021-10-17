@@ -7,4 +7,6 @@ SDL Game Programming Using Dual System.
 | Project | Game Name| Link |
 | -------- | -------- | -------- |
 |tbfss |The Battle for the Solar System     |  https://github.com/stephenjsweeney/tbftss    |
+|cosmo |Cosmo's Cosmic Adventure     |  https://github.com/yuv422/cosmo-engine    |
+|Openblok |OpenBlok     |  https://github.com/mmatyas/openblok    |
 
