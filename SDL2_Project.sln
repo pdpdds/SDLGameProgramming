@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nanogui", "sdl2\nanogui\nan
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "edgar", "sdl2\edgar-1.31\edgar.vcxproj", "{384ABF8F-C638-4ED2-B5CE-4B2786F48C85}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cosmo", "sdl2\cosmo\cosmo.vcxproj", "{0E07AB8C-D31A-4DC1-B61E-88194D3FED50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -205,6 +207,14 @@ Global
 		{384ABF8F-C638-4ED2-B5CE-4B2786F48C85}.Release|x64.ActiveCfg = Release|Win32
 		{384ABF8F-C638-4ED2-B5CE-4B2786F48C85}.Release|x86.ActiveCfg = Release|Win32
 		{384ABF8F-C638-4ED2-B5CE-4B2786F48C85}.Release|x86.Build.0 = Release|Win32
+		{0E07AB8C-D31A-4DC1-B61E-88194D3FED50}.Debug|x64.ActiveCfg = Debug|x64
+		{0E07AB8C-D31A-4DC1-B61E-88194D3FED50}.Debug|x64.Build.0 = Debug|x64
+		{0E07AB8C-D31A-4DC1-B61E-88194D3FED50}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E07AB8C-D31A-4DC1-B61E-88194D3FED50}.Debug|x86.Build.0 = Debug|Win32
+		{0E07AB8C-D31A-4DC1-B61E-88194D3FED50}.Release|x64.ActiveCfg = Release|x64
+		{0E07AB8C-D31A-4DC1-B61E-88194D3FED50}.Release|x64.Build.0 = Release|x64
+		{0E07AB8C-D31A-4DC1-B61E-88194D3FED50}.Release|x86.ActiveCfg = Release|Win32
+		{0E07AB8C-D31A-4DC1-B61E-88194D3FED50}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\files">
+      <UniqueIdentifier>{ebac69eb-8e0c-453c-99d3-dd5f805ae9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\sound">
+      <UniqueIdentifier>{3ba2a0b4-e4cb-41b7-9589-c376d2e4a446}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\actor.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actor_collision.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actor_toss.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actor_worktype.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\b800.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backdrop.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cartoon.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\demo.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dialog.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\effects.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\font.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fullscreen_image.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\high_scores.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\palette.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platforms.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\save.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\status.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tile.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\files\file.c">
+      <Filter>소스 파일\files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\files\vol.c">
+      <Filter>소스 파일\files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\audio.c">
+      <Filter>소스 파일\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\music.c">
+      <Filter>소스 파일\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\opl.c">
+      <Filter>소스 파일\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\sfx.c">
+      <Filter>소스 파일\sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\actor.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\actor_collision.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\actor_toss.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\actor_worktype.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\b800.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\b800_font.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backdrop.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cartoon.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defines.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\demo.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dialog.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\effects.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\font.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fullscreen_image.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\high_scores.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\palette.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platforms.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\save.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\status.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tile.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\files\file.h">
+      <Filter>소스 파일\files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\files\vol.h">
+      <Filter>소스 파일\files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\audio.h">
+      <Filter>소스 파일\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\music.h">
+      <Filter>소스 파일\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\opl.h">
+      <Filter>소스 파일\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\sfx.h">
+      <Filter>소스 파일\sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
