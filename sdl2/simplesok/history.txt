@@ -1,0 +1,20 @@
+
+ Simple Sokoban v1.0.1 [18 Jun 2014]
+  - added support for CR/LF formatted XSB files,
+  - replaced the "original" levels set by a freely available set by David W. Skinner,
+  - implemented zooming (CTRL+UP / CTRL+DOWN),
+  - animated movements of the pusher on the intro screen,
+  - added a thin border around the selected level in the level selection screen,
+  - drawing 'wall caps' on 2x2 wall quads to avoid creating holes,
+  - changed the F9 action (save to clipboard) to CTRL+C key binding,
+  - improved the delay routine to keep the same framerate across platforms,
+  - PgUp/PgDown keys support in the selection level menu,
+  - added support for pasting moves from clipboard (CTRL+V),
+  - replaced PNG files by bmp.gz - similar efficiency, but without creating ugly dependencies with SDL2_image, libpng and libz,
+  - added save/load feature (F5/F7) & dumping level key binding moved to F3,
+  - added the --framedelay=X and --framefreq=X command-line parameters to tune the game's speed,
+  - added support for loading gzipped *.xsb files,
+  - internet levels.
+
+ Simple Sokoban v1.0 [15 Apr 2014]
+  - first public release.

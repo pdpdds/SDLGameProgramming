@@ -1,0 +1,33 @@
+
+CFLAGS = -O3 -Wall -Wextra -std=gnu89 -pedantic -Wno-long-long
+CLIBS = -lmingw32 -Dmain=SDL_main -lSDL2main -lSDL2 -mwindows -Wl,--no-undefined -lm -ldinput8 -ldxguid -ldxerr8 -luser32 -lgdi32 -lwinmm -limm32 -lole32 -loleaut32 -lshell32 -lversion -luuid -static-libgcc -lws2_32
+
+all: simplesok.exe
+
+simplesok.exe: sok.o sok_core.o crc32.o save.o gz.o net.o simplesok.res
+	gcc $(CFLAGS) sok.o sok_core.o crc32.o save.o gz.o net.o simplesok.res -o simplesok.exe $(CLIBS)
+
+simplesok.res: simplesok.rc
+	windres -i simplesok.rc --output-format coff -o simplesok.res
+
+sok.o: sok.c
+	gcc -c $(CFLAGS) sok.c -o sok.o
+
+sok_core.o: sok_core.c
+	gcc -c $(CFLAGS) sok_core.c -o sok_core.o
+
+crc32.o: crc32.c
+	gcc -c $(CFLAGS) crc32.c -o crc32.o
+
+save.o: save.c
+	gcc -c $(CFLAGS) save.c -o save.o
+
+gz.o: gz.c
+	gcc -c $(CFLAGS) gz.c -o gz.o
+
+net.o: net.c
+	gcc -c $(CFLAGS) net.c -o net.o
+
+clean:
+	del *.o
+	del simplesok.exe

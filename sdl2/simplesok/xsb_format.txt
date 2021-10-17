@@ -1,0 +1,35 @@
+
+Sokoban XSB File Format
+
+
+== Cell Characters ==
+
+    ' ' (white space) - Floor
+    @ - Player
+    + - Player on target
+    # - Wall
+    $ - Crate/Box
+    . - Goal
+    * - Crate on Goal
+
+== Control Characters ==
+
+    ; Library Description
+    ; Puzzle Name (start of puzzle char)
+    LF (line break) End of Puzzle designation
+
+== Example ==
+
+; First stage
+
+   ###
+  ## # ####
+ ##  ###  #
+## $      #
+#   @$ #  #
+### $###  #
+  #  #..  #
+ ## ##.# ##
+ #      ##
+ #     ##
+ #######

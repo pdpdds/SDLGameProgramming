@@ -1,0 +1,92 @@
+
+                        ***  Simple Sokoban  ***
+                    http://simplesok.sourceforge.net/
+
+                    Copyright (C) Mateusz Viste 2014
+
+
+Simple Sokoban is a (simple) Sokoban game aimed at playability and portability
+across systems. It is written in ANSI C89, using SDL for user interactions.
+I developed it natively under x86_64 Linux, but it should compile just fine on
+virtually anything that has a C compiler and the SDL library.
+
+ Features:
+  - nicely animated movements,
+  - unlimited level solutions,
+  - unlimited undos,
+  - 3 embedded level sets,
+  - support for external *.xsb levels, possibly RLE compressed,
+  - support for levels of size up to 62x62,
+  - copying levels to clipboard,
+  - save/load,
+  - ...
+
+I provide a build of the game for a couple of Linux distributions via the
+openSUSE build service:
+ http://software.opensuse.org/package/simplesok
+
+A Windows (x86) build is available as well, on the project's homepage.
+
+
+[ Loading external level files ]
+
+Simple Sokoban can load levels from external *.xsb files. There are two ways
+to load such file: either pass it as a parameter on command line, or drop the
+file to the Simple Sokoban application window. Note, that the second method
+will work only if your windowing system supports it.
+Simple Sokoban is also able to load gzipped xsb files.
+
+
+[ Command line parameters ]
+
+Simple Sokoban accepts some command-line parameters. If a parameter is not
+part of the known list of parameters, then Simple Sokoban assumes it is the
+path to a XSB level file.
+
+--framedelay=X      Adjusts the delay between rendered frames to X us. Use it
+                    if you'd like to make Simple Sokoban slower/faster. The
+                    default value is 10500. This value must be in the range
+                    0..64000.
+
+--framefreq=X       Adjusts the frequency at which frames should be displayed.
+                    The default value is 15000, which means 'every 15000 us'.
+                    This value must be in the range 1..1000000.
+
+
+[ Keys bindings ]
+
+Simple Sokoban is though to react to keyboard keys that are well-known and
+seem intuitive. However, for the sake of documentation, I present here below
+the list of keys one can use when using Simple Sokoban:
+
+  F1                - display help
+  F2                - turn on/off graphical elements
+  F3                - dump the level to clipboard
+  F5/F7             - save/load game state
+  Backspace         - undo last move
+  R                 - restart the ongoing level
+  S                 - play the solution (if available)
+  CTRL+C            - copy current level state to clipboard
+  CTRL+V            - paste moves from clipboard
+  CTRL+UP/CTRL+DOWN - zoom in/out
+  F11 or ALT+ENTER  - fullscreen on/off
+
+
+[ Credits ]
+
+Simple Sokoban has been written by Mateusz Viste. However, the project
+wouldn't have been possible without the valuable work of other people:
+
+ - Hiroyuki Imabayashi - The original creator of the Sokoban game,
+ - Gerry Wiseman - Created graphical elements adapted by Simple Sokoban,
+ - David W. Skinner - Designed the level sets embedded in Simple Sokoban.
+
+
+[ License ]
+
+The Simple Sokoban project is released under GNU GPL v3. Read the
+'license.txt' file shipped with the game for details.
+
+Graphics are based on "AntiqueDesk 3" and "Nightshift" skins created
+by Gerry Wiseman, and are copyright by Gerry Wiseman. He has published
+these graphics under the GNU GPL.
