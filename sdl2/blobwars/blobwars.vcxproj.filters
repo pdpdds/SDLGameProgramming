@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{189d821e-6822-453f-bd3d-1bba4dffe6d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\aquaBoss.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bosses.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bullets.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CAudio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CBoss.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CCollision.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CConfig.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CCutscene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CEffect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CEngine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CEntity.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CFileData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CGame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CGameData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CGameObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CGraphics.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CHub.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CJoystick.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CKeyboard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CLineDef.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CMap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CMath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CMedalServer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CObjective.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CPak.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CParticle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CPersistant.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CPersistData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CRadarBlip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CReplayData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CSpawnPoint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CSprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CSwitch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CTeleporter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CTrain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CTrap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cutscene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CWeapon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CWidget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\droidBoss.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\effects.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemies.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\explosions.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\finalBattle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\galdov.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hub.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\info.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\intro.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\items.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lineDefs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loadSave.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mapData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mias.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mission.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objectives.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\obstacles.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\options.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particles.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resources.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spawnPoints.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\switches.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tankBoss.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\teleporters.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\title.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trains.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\traps.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\triggers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\weapons.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widgets.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\aquaBoss.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bosses.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bullets.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CAudio.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CBoss.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CCollision.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CConfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CCutscene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CEffect.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CEngine.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CEntity.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CFileData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CGame.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CGameData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CGameObject.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CGraphics.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CHub.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CJoystick.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CKeyboard.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CLineDef.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CList.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CMap.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CMath.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CMedalServer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CObjective.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CPak.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CParticle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CPersistant.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CPersistData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CRadarBlip.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CReplayData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CReplayDataHeader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSpawnPoint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSprite.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSwitch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CTeleporter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CTrain.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CTrap.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cutscene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CWeapon.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CWidget.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\droidBoss.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\effects.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemies.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\explosions.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\finalBattle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\galdov.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hub.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\info.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\init.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\intro.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\items.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lineDefs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\loadSave.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mapData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mias.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mission.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objectives.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\obstacles.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\options.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\particles.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resources.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spawnPoints.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\switches.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tankBoss.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\teleporters.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\title.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trains.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\traps.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\triggers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\weapons.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widgets.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
