@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Modules">
+      <UniqueIdentifier>{15b5cbc6-cd68-4e6e-8935-b04f2fdf7bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Modules">
+      <UniqueIdentifier>{72b85efa-930b-4213-a8ec-2f0f817410d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{ad89cf24-f35e-4d0c-90e5-820c054c274d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ModuleRender.h">
+      <Filter>Core Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleTextures.h">
+      <Filter>Core Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleWindow.h">
+      <Filter>Core Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Module.h">
+      <Filter>Core Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleAudio.h">
+      <Filter>Core Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleFadeToBlack.h">
+      <Filter>Core Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleInput.h">
+      <Filter>Core Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModulePlayerDhalsim.h">
+      <Filter>Game Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleSceneBison.h">
+      <Filter>Game Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleParticleSystem.h">
+      <Filter>Core Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleCollisions.h">
+      <Filter>Core Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleComboDetection.h">
+      <Filter>Game Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleAnimation.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleRender.cpp">
+      <Filter>Core Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleTextures.cpp">
+      <Filter>Core Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleWindow.cpp">
+      <Filter>Core Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleAudio.cpp">
+      <Filter>Core Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleFadeToBlack.cpp">
+      <Filter>Core Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleInput.cpp">
+      <Filter>Core Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModulePlayerDhalsim.cpp">
+      <Filter>Game Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleSceneBison.cpp">
+      <Filter>Game Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleParticleSystem.cpp">
+      <Filter>Core Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleCollisions.cpp">
+      <Filter>Core Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleComboDetection.cpp">
+      <Filter>Game Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Extern\jsoncpp\src\lib_json\json_reader.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Extern\jsoncpp\src\lib_json\json_value.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Extern\jsoncpp\src\lib_json\json_writer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

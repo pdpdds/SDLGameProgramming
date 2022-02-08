@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "starfighter", "sdl2\starfig
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "blobwars", "sdl2\blobwars\blobwars.vcxproj", "{85F4852B-336E-4A86-BFAC-49C4FF199827}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSF2", "sdl2\SSF2\SDL Game.vcxproj", "{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -263,6 +265,12 @@ Global
 		{85F4852B-336E-4A86-BFAC-49C4FF199827}.Release|x64.Build.0 = Release|x64
 		{85F4852B-336E-4A86-BFAC-49C4FF199827}.Release|x86.ActiveCfg = Release|Win32
 		{85F4852B-336E-4A86-BFAC-49C4FF199827}.Release|x86.Build.0 = Release|Win32
+		{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}.Debug|x64.ActiveCfg = Debug|Win32
+		{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}.Debug|x86.Build.0 = Debug|Win32
+		{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}.Release|x64.ActiveCfg = Release|Win32
+		{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}.Release|x86.ActiveCfg = Release|Win32
+		{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
