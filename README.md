@@ -1,6 +1,9 @@
 # SDLGameProgramming
 SDL Game Programming Using Dual System.
 
+## Document
+
+[SDL을 활용한 게임 프로그래밍](https://wikidocs.net/book/6636)  
 
 ## SDL2 Game & Application
 
