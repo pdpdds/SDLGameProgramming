@@ -1,5 +1,5 @@
-# SDL1, SDL2 Game Project Collection
-SDL Game Project build system Using Dual System.
+# SDL2 Game Project Collection
+SDL Game Project Collection
 
 ## Document
 
