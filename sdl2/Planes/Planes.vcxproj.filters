@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f1edb2d3-a71c-4487-a51d-df2a7d15d462}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fuentes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Planes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Texturas.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Ventana.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Vista.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Fuentes.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Planes.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Texturas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Ventana.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vista.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
