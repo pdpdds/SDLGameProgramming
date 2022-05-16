@@ -27,8 +27,27 @@ jobs:
 
     - name: Add MSBuild to PATH
       uses: microsoft/setup-msbuild@v1.0.2
-
-
+      
+    - name : vcpkg
+      run: |
+        git clone https://github.com/microsoft/vcpkg
+        bootstrap-vcpkg.bat
+        vcpkg integrate install
+        vcpkg install sdl2
+        vcpkg install sdl2-image
+        vcpkg install sdl2-mixer
+        vcpkg install sdl2-ttf
+        vcpkg install sdl2-net
+        vcpkg install sdl2-gfx
+        vcpkg install box2d
+        vcpkg install lua
+        vcpkg install libmikmod
+        vcpkg install libflac
+        vcpkg install smpeg2
+        vcpkg install libvorbis
+        vcpkg install curl
+        vcpkg install tiff
+        vcpkg install gettext
     - name: Build
       working-directory: ${{env.GITHUB_WORKSPACE}}
       # Add additional options to the MSBuild command line here (like platform or verbosity level).
