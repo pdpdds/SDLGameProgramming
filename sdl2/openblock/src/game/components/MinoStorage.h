@@ -5,6 +5,7 @@
 
 #include <memory>
 #include <unordered_map>
+#include <string>
 
 class AppContext;
 class GraphicsContext;
