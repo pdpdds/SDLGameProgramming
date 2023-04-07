@@ -698,7 +698,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../debug;D:\core_project\SDLProgramming\SDL2_Module\Prebuilt\win32\x86\lib;D:\core_project\prebuilt\zlib\lib\x86\Release;D:\core_project\SDLProgramming\SDL2_Module\SDL2_image\external\libpng-1.6.2\projects\visualc71\Win32_DLL_Debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
       <AdditionalDependencies>sdl2maind.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
