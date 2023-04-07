@@ -16,7 +16,7 @@
 #include "loader.h"
 
 #include "Version"
-
+#include <SDL2/SDL.h>
 
 static char *defaultconfig[] =
 {

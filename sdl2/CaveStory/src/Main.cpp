@@ -91,7 +91,6 @@ int GetFramePerSecound()
 	
 	return frames_this_second;
 }
-#undef main
 int main(int argc, char *argv[])
 {
 	//Get executable's path

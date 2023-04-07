@@ -417,8 +417,7 @@ bool ant_c::animateAnt(unsigned int delay) {
 // I will not comment all these functions
 
 unsigned int ant_c::SFStruck(void) {
-  if (animateAnt(2))
-    ;
+    animateAnt(2);
 
   return animation;
 }

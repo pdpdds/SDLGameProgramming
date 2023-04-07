@@ -47,7 +47,6 @@ using std::cout;
 using std::cerr;
 using std::endl;
 
-//#undef main
 extern "C" { FILE __iob_func[3] = { *stdin,*stdout,*stderr }; }
 extern "C" {
     typedef GLubyte* (APIENTRY * glGetString_Func)(unsigned int);

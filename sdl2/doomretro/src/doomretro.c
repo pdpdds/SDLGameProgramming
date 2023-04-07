@@ -255,7 +255,7 @@ void I_ShutdownWindows32(void)
     I_AccessibilityShortcutKeys(true);
 }
 #endif
-#undef main
+
 int main(int argc, char **argv)
 {
 #if defined(_WIN32)

@@ -15,7 +15,6 @@ enum main_states
 };
 
 Application* App = nullptr;
-#undef main
 int main(int argc, char ** argv)
 {
 	int main_return = EXIT_FAILURE;

@@ -86,14 +86,14 @@
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>./include;./;</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <PreprocessorDefinitions>IS_LITTLE_ENDIAN;_CRT_SECURE_NO_WARNINGS;SDL_MAIN_HANDLED;_MBCS;SOUND;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>IS_LITTLE_ENDIAN;_CRT_SECURE_NO_WARNINGS;_MBCS;SOUND;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>
       </AdditionalLibraryDirectories>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sdl2maind.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
@@ -104,15 +104,18 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\jakowskiuki\Documents\Visual Studio 2012\Projects\libs\SDL2-2.0.3\include;C:\Users\jakowskiuki\Documents\Visual Studio 2012\Projects\libs\SDL2_mixer-2.0.0\include;C:\Users\jakowskiuki\Documents\Visual Studio 2012\Projects\libs\SDL2_image-2.0.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./include;./;</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>IS_LITTLE_ENDIAN;_CRT_SECURE_NO_WARNINGS;_MBCS;SOUND;__WIN32__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Users\jakowskiuki\Documents\Visual Studio 2012\Projects\libs\SDL2-2.0.3\lib\x86;C:\Users\jakowskiuki\Documents\Visual Studio 2012\Projects\libs\SDL2_mixer-2.0.0\lib\x86;C:\Users\jakowskiuki\Documents\Visual Studio 2012\Projects\libs\SDL2_image-2.0.0\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_mixer.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>sdl2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
     </Link>
     <PreBuildEvent>

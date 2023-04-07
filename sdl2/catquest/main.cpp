@@ -1,6 +1,5 @@
 #include "game.h"
 #include <string>
-#undef main
 int main(int argc, char* args[]) {
 	Gamebase game(1024, 640);
 

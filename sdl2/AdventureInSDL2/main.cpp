@@ -130,12 +130,7 @@ static void ShutdownApp()
 	SDL_Quit();
 }
 
-//#ifdef _WIN32
-//int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
-//#else
-#undef main
 int main(int argc, char** argv)
-//#endif
 {
 	srand(static_cast<unsigned int>(time(nullptr)));
 

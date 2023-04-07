@@ -188,6 +188,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>../../../../SDL2_Module/SDL2/include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819;4305;4244;4033;4018;4996;4113</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

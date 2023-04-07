@@ -52,7 +52,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include <direct.h>
 
-#undef main
 int main(int argc, char **argv)
 {
 	int cheatAttempt;

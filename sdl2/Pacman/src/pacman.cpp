@@ -1,7 +1,6 @@
 #include "pacman.h"
 #include "config.h"
 
-#undef main
 int main(int argc, char *argv[]) {
 	srand((unsigned int)time(0)); // init randomize
 
