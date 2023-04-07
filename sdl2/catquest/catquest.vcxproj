@@ -91,7 +91,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>SDL2PP_STATIC_DEFINE;SDL2PP_WITH_IMAGE;_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>./;../zlib/include;D:\DevPlatform\SDL\SDLProgramming\SDL2_Module\SDL2\include;D:\DevPlatform\SDL\SDLProgramming\SDL2_Module\SDL2_gfx;D:\DevPlatform\SDL\SDLProgramming\SDL2_Module\SDL2_image;D:\DevPlatform\SDL\SDLProgramming\SDL2_Module\SDL2_mixer;D:\DevPlatform\SDL\SDLProgramming\SDL2_Module\SDL2_net;D:\DevPlatform\SDL\SDLProgramming\SDL2_Module\SDL2_ttf</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./;../zlib/include;</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4244;4275;4273;4251</DisableSpecificWarnings>
     </ClCompile>
     <Link>
