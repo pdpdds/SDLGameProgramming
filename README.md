@@ -19,5 +19,4 @@ SDL Game Project Collection
 |simplesok |Simple Sokoban     |  http://simplesok.sourceforge.net    |
 |starfighter |Starfighter     |  https://www.parallelrealities.co.uk/    |
 |ravage |ravage     |  https://github.com/sigt44/ravage-sdl    |
-|tbftss |tbftss     |  https://github.com/stephenjsweeney/tbftss    |
 
